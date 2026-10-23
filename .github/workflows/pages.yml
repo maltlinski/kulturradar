@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           # PRs: den PR-Stand prüfen; sonst immer den neuesten main (inkl. Commit des täglichen Laufs)
-          ref: ${{ github.event_name == 'pull_request' && '' || 'main' }}
+          ref: ${{ github.event_name != 'pull_request' && 'main' || '' }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
