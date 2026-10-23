@@ -1,0 +1,5545 @@
+{
+ "updated": "2026-10-23T12:00:00Z",
+ "events": [
+  {
+   "id": "biennale-musica-a-child-of-sound-leitung-caterin-2026-10-10",
+   "title": "Biennale Musica",
+   "text": "Biennale Musica *A Child of Sound* (Leitung Caterina Barbieri), über 40 Veranstaltungen, 18 Uraufführungen; Programm jetzt als PDF und Tagesseiten online; die bisher geführte Löwen-Verleihung am 12.10. stand am 05.10. nicht auf der Seite; kein Tanz-Highlight genannt",
+   "when": "10.–24.10.",
+   "dates": [],
+   "range": {
+    "start": "2026-10-10",
+    "end": "2026-10-24"
+   },
+   "venue": "Arsenale, Ca' Giustinian, Forte Marghera u. a.",
+   "city": "Venedig",
+   "sparte": "Neue Musik",
+   "cat": "music",
+   "region": "trip",
+   "status": "partial",
+   "statusNote": "✅ Rahmen / 🟡 Einzeltermine nicht einzeln geprüft",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "labiennale.org",
+     "url": "https://www.labiennale.org/en/music/2026"
+    }
+   ],
+   "artist": "A Child of Sound"
+  },
+  {
+   "id": "ballett-der-scala-giselle-fassung-yvette-chauvir-2026-10-19",
+   "title": "Giselle",
+   "text": "**Ballett der Scala: *Giselle** (Fassung Yvette Chauviré, Ltg. Mikhail Agrest) — Stand 19.10.: 19.10. **ausverkauft** · 21.10. „Invitation La Scala“ (Karten für Ältere und Junge) · 22./23.10. **letzte Plätze** (22.10. **Rabatt** Under 30/35); Albrecht am 19.10. Marco Agostino statt Claudio Coviello (erkrankt)",
+   "when": "19.–23.10., je 20:00",
+   "dates": [
+    {
+     "date": "2026-10-19",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-20",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-21",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-22",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-23",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro alla Scala",
+   "city": "Mailand",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅ (teils ausverkauft)",
+   "free": false,
+   "discount": true,
+   "soldOut": "few",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroallascala.org",
+     "url": "https://www.teatroallascala.org/en/season/2025-2026/ballet/giselle.html"
+    }
+   ],
+   "artist": "Ballett der Scala"
+  },
+  {
+   "id": "gounod-faust-rustioni-regie-johannes-erath-2026-10-20",
+   "title": "Faust",
+   "text": "**Gounod *Faust*** (Rustioni / Regie Johannes Erath; Marina Rebeka, Vittorio Grigolo, Alex Esposito), Neuinszenierung — Stand 12.10.: 20.10. letzte Plätze, 24./27./29.10. ausverkauft, 3./5./8.11. letzte Plätze; Rabatt* Under 30/35 am 29.10. und 5.11. (29.10. andere Besetzung: Bakanova, Dran, Godínez; 5.11. Dran als Faust). **19.10.: Für die Premiere am 20.10. ist ein Streik angekündigt** („Updates will follow“)",
+   "when": "Premiere 20.10. · 24./27./29.10. · 3./5./8.11., je 19:30",
+   "dates": [
+    {
+     "date": "2026-10-20",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-10-24",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-10-27",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-10-29",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-11-03",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-11-05",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "19:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro alla Scala",
+   "city": "Mailand",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "partial",
+   "statusNote": "✅ / 🟡 20.10. (Streik angekündigt)",
+   "free": false,
+   "discount": true,
+   "soldOut": "few",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroallascala.org",
+     "url": "https://www.teatroallascala.org/en/season/2025-2026/opera/faust.html"
+    }
+   ],
+   "artist": "Gounod"
+  },
+  {
+   "id": "che-dolore-terribile-e-l-amore-daria-deflorian-p-2026-10-22",
+   "title": "Che dolore terribile è l'amore",
+   "text": "*Che dolore terribile è l'amore* (Daria Deflorian, *prima nazionale*) — 22./23.10. 20:30 · 24.10. 19:00 · 25.10. 16:00; 85 Min., ab 8,18 €; 24.10. Publikumsgespräch mit Deflorian nach der Vorstellung",
+   "when": "22.–25.10.",
+   "dates": [
+    {
+     "date": "2026-10-22",
+     "time": null
+    },
+    {
+     "date": "2026-10-23",
+     "time": null
+    },
+    {
+     "date": "2026-10-24",
+     "time": null
+    },
+    {
+     "date": "2026-10-25",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/che-dolore-terribile-e-lamore/"
+    }
+   ],
+   "artist": "Daria Deflorian"
+  },
+  {
+   "id": "le-baccanti-2026-10-22",
+   "title": "Le Baccanti",
+   "text": "*Le Baccanti* — Regie Theodoros Terzopoulos; ab 11,99 €",
+   "when": "22./23.10. 20:30 · 24.10. 19:00 · 25.10. 16:00",
+   "dates": [
+    {
+     "date": "2026-10-22",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-10-23",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-10-24",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-10-25",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Storchi",
+   "city": "Modena",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/le-baccanti/"
+    }
+   ],
+   "artist": "Theodoros Terzopoulos"
+  },
+  {
+   "id": "mascagni-cavalleria-rusticana-battistoni-menghin-2026-10-22",
+   "title": "Cavalleria rusticana",
+   "text": "Mascagni *Cavalleria rusticana* (Battistoni / Menghini; Ekaterina Semenchuk), gekoppelt mit *Pagliacci*; *Pagliacci* am 21.11. mit Gregory Kunde. Verbleibende Termine: 22.10. 20:00 · 24.10. 15:00 · 30.10. 20:00 · 7./14./21.11. 20:00",
+   "when": "22.10. – 21.11. (s. Text)",
+   "dates": [],
+   "range": {
+    "start": "2026-10-22",
+    "end": "2026-11-21"
+   },
+   "venue": "Teatro Regio",
+   "city": "Turin",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregio.torino.it",
+     "url": "https://www.teatroregio.torino.it/en/opera-e-balletto-2026-2027/cavalleria-rusticana"
+    }
+   ],
+   "artist": "Mascagni"
+  },
+  {
+   "id": "ludus-gravis-mit-stefano-ricci-cerchi-concentric-2026-10-23",
+   "title": "Cerchi concentrici",
+   "text": "Festival Aperto: Ludus Gravis mit Stefano Ricci, *Cerchi concentrici*, ab 10 €",
+   "when": "23.10., 20:30",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Cavallerizza",
+   "city": "Reggio Emilia",
+   "sparte": "Musik",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/ludus-gravis-cerchi-concentrici/"
+    }
+   ],
+   "artist": "Ludus Gravis mit Stefano Ricci"
+  },
+  {
+   "id": "verdi-messa-da-requiem-rustioni-2026-10-23",
+   "title": "Messa da Requiem",
+   "text": "Verdi *Messa da Requiem* (Rustioni; Buratto, Semenchuk, Pirgu, Tagliavini), ab 15 €",
+   "when": "23.10., 20:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Regio",
+   "city": "Parma",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregioparma.it",
+     "url": "https://teatroregioparma.it/spettacolo/messa-da-requiem/"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "handel-semele-konzertant-ltg-giulio-prandi-2026-10-23",
+   "title": "Semele konzertant",
+   "text": "Händel *Semele* konzertant (Ltg. **Giulio Prandi**; Suzanne Jerosme, Raffaele Pe, Giuseppina Bridelli u. a.), 3 h 10 Min. — **Rabatt** 10-€-Studikarte: Widerspruch, ob nur 25.10. (s. Fristen); **gratis** Einführung 20.10. 18:00, Foyer Rossini (Eventbrite, [Seite](https://www.tcbo.it/eventi/semele-presentazione/))",
+   "when": "23.10. 20:00 (Prima) · 25.10. 16:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-25",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "partial",
+   "statusNote": "✅ / 🟡 Studirabatt",
+   "free": true,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/en/eventi/opera-2026-semele/"
+    }
+   ],
+   "artist": "Händel"
+  },
+  {
+   "id": "prasentation-opera-guccini-comaschi-nidi-sanger--2026-10-23",
+   "title": "Opera Guccini: Präsentation",
+   "text": "Präsentation *Opera Guccini* (Comaschi, Nidi, Sänger:innen) — **gratis**, Pflichtreservierung über Eventbrite (für 23.10. ab 16.10., 18:00)",
+   "when": "23.10., 18:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale, Foyer Rossini",
+   "city": "Bologna",
+   "sparte": "Musiktheater/Einführung",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/eventi/presentazione-opera-guccini/"
+    }
+   ],
+   "artist": "Comaschi, Nidi, Sänger:innen"
+  },
+  {
+   "id": "serbian-national-theatre-ballet-somewhere-beyond-2026-10-23",
+   "title": "Somewhere Beyond the Planets",
+   "text": "**Serbian National Theatre Ballet: *Somewhere Beyond the Planets*** — Triple Bill, Choreografie Annabelle Lopez Ochoa**; Eröffnung der Bologna Ballet Competition; Stücke *Delusional Beauty*, *La Pluie*, *Linea Recta*; 20 €, ermäßigt 18 €, „mini“ 15 €. Hinweis: Die BBC-Veranstalterseite (keine Belegquelle) nennt 20:30, das Duse 21:00",
+   "when": "23.10., 21:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://www.teatroduse.it/spettacoli/somewhere-beyond-the-planets-teatro-duse/"
+    }
+   ],
+   "artist": "Serbian National Theatre Ballet"
+  },
+  {
+   "id": "bologna-ballet-competition-2026-4-ausgabe-2026-10-23",
+   "title": "Bologna Ballet Competition",
+   "text": "**Bologna Ballet Competition 2026** (4. Ausgabe) — Wettbewerb mit Masterclasses, Workshops, Auditions, Stipendien und Jobangeboten; Jury u. a. Ceron, Morelli, Torres, Zanella, **Jasmin Vardimon**. Zuschauen 12 € pro Tag (Parkett). Gala 24.10. jetzt belegt (eigene Zeile). Masterclasses: Widerspruch gratis mit E-Mail-Anmeldung ([Veranstalterseite](https://bolognaballetcompetition.com/it/workshops/), am 19.10. nicht erreichbar) vs. Tagesticket (Duse). Nur Presse: JV2-Audition 25.10. (17–21 J.). Ob die 12 € der Tagespreis sind, sagt die Duse-Seite nicht ausdrücklich",
+   "when": "23.–25.10. (Fr/Sa 9–18, So 9–15)",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": null
+    },
+    {
+     "date": "2026-10-24",
+     "time": null
+    },
+    {
+     "date": "2026-10-25",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett/Workshop/Audition",
+   "cat": "workshop",
+   "region": "bologna",
+   "status": "partial",
+   "statusNote": "✅ Rahmen / 🟡 Masterclass-Konditionen und JV2-Audition",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/bologna-ballet-competition-teatro-duse/"
+    },
+    {
+     "label": "bolognaballetcompetition.com",
+     "url": "https://bolognaballetcompetition.com/it/"
+    }
+   ],
+   "artist": "Wettbewerb, Masterclasses, Auditions"
+  },
+  {
+   "id": "viaggio-a-hong-kong-pascal-rambert-sandro-lombar-2026-10-23",
+   "title": "Viaggio a Hong Kong",
+   "text": "*Viaggio a Hong Kong* (Pascal Rambert / Sandro Lombardi), ab 13,08 € — läuft ab 11.11. auch in Bologna (s. November)",
+   "when": "23.10. 20:30 · 24.10. 19:00 · 25.10. 18:00 · 30.10. 20:30 · 31.10. 19:00 · 1.11. 18:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-10-24",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-10-25",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-10-30",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-01",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Passioni, Sala Grande",
+   "city": "Modena",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/viaggio-a-hong-kong/"
+    }
+   ],
+   "artist": "Pascal Rambert / Sandro Lombardi"
+  },
+  {
+   "id": "nicola-piovani-romanzo-criminale-2026-10-23",
+   "title": "Romanzo criminale",
+   "text": "Nicola Piovani *Romanzo criminale* — **Uraufführung**, Auftragswerk Maggio / Musica per Roma; Ltg. Piovani, Regie Massimo Popolizio, Libretto De Cataldo; 15–130 €",
+   "when": "23.10. 20:00 · 25.10. 15:30 · 28.10. 20:00 · 31.10. 17:00",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-25",
+     "time": "15:30"
+    },
+    {
+     "date": "2026-10-28",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "17:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro del Maggio, Sala Grande",
+   "city": "Florenz",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "maggiofiorentino.com",
+     "url": "https://www.maggiofiorentino.com/events/romanzo-criminale"
+    },
+    {
+     "label": "Pressemitteilung",
+     "url": "https://www.maggiofiorentino.com/news/il-teatro-del-maggio-musicale-fiorentino-annuncia-la-stagione-2026-e-l88esima-edizione-del-festival"
+    }
+   ],
+   "artist": "Nicola Piovani"
+  },
+  {
+   "id": "teatro-regio-turin-leoncavallo-la-boheme-raritat-2026-10-23",
+   "title": "La bohème · Iris",
+   "text": "Teatro Regio Turin: Leoncavallo *La bohème* (Rarität; Battistoni / Micheli) — 23.10. (Anteprima Giovani), 27.10., 6./13.11. je 20:00 · 31.10., 22.11. je 15:00 — und Mascagni *Iris* (Battistoni / Menghini; Erika Grimaldi / Iwona Sobotka) — 29.10. (Anteprima Giovani), 5./10.11. je 20:00 · 8./15./18.11. je 15:00 · 17.11. 20:00 (am 12.10. wieder gelistet); Gesprächskonzert zu *Iris* 4.11. 18:00, Piccolo Regio; beide Neuinszenierungen, keine Preise auf den Seiten, kein Ausverkauf vermerkt",
+   "when": "23.10.–22.11. (s. Text)",
+   "dates": [],
+   "range": {
+    "start": "2026-10-23",
+    "end": "2026-11-22"
+   },
+   "venue": "Teatro Regio",
+   "city": "Turin",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregio.torino.it",
+     "url": "https://www.teatroregio.torino.it/en/opera-e-balletto-2026-2027/iris"
+    }
+   ],
+   "artist": "Leoncavallo, Mascagni"
+  },
+  {
+   "id": "fog-triennale-lee-yanghee-shimmering-2026-10-23",
+   "title": "Shimmering",
+   "text": "FOG Triennale: Lee Yanghee *Shimmering* — koreanischer Shinmuyong-Tanz mit 1990er-Rave-Ästhetik, laut Presse erstmals in Italien; 24 €",
+   "when": "23./24.10., 19:30",
+   "dates": [
+    {
+     "date": "2026-10-23",
+     "time": "19:30"
+    },
+    {
+     "date": "2026-10-24",
+     "time": "19:30"
+    }
+   ],
+   "range": null,
+   "venue": "Triennale Milano",
+   "city": "Mailand",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "trip",
+   "status": "check",
+   "statusNote": "🟡 Termine, Preis und Erstaufführung nur Presse (zero.eu); Triennale-Eventseiten am 12.10. und 19.10. nicht erreichbar (es gibt laut Suche auch einen Movement Workshop mit Lee Yanghee, Datum unbekannt), FOG-Übersicht nennt das Stück ohne Datum",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "triennale.org",
+     "url": "https://triennale.org/en/editorials/fog-performing-arts-festival-2026-autunno"
+    }
+   ],
+   "artist": "Lee Yanghee · FOG Triennale"
+  },
+  {
+   "id": "verdi-nabucodonosor-pizzi-lanzillotta-orchester--2026-10-24",
+   "title": "Nabucodonosor",
+   "text": "Verdi *Nabucodonosor* (Pizzi, Lanzillotta, Orchester des TCBO), ab 10 €",
+   "when": "24.10., 20:00",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Regio",
+   "city": "Parma",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregioparma.it",
+     "url": "https://teatroregioparma.it/spettacolo/nabucodonosor/"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "olitango-pratica-di-ballo-und-milonga-2026-10-24",
+   "title": "Pratica di ballo und Milonga",
+   "text": "OliTango: Pratica di ballo und Milonga — 5 € nur Pratica, 18 € Stage plus Pratica, AICS-Mitgliedschaft nötig (weiter 7.11., 21.11., 19.12.)",
+   "when": "24.10., 17–20",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Centro Sportivo S. Pertini, Via Gubellini 7/A",
+   "city": "Bologna",
+   "sparte": "Tango",
+   "cat": "social",
+   "region": "bologna",
+   "status": "check",
+   "statusNote": "🟡 nur Vereinsseite (nicht Tier 1/2), Jahr steht nicht auf der Seite",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "olitango.it",
+     "url": "https://www.olitango.it/corsi-lezioni-tango-argentino-bologna-provincia/pratica-ballo-milonga-bologna/"
+    }
+   ],
+   "artist": "OliTango"
+  },
+  {
+   "id": "vicino-vicinissimo-2026-10-24",
+   "title": "Vicino, vicinissimo",
+   "text": "Gender Bender: *Vicino, vicinissimo* — **Daniele Ninarello** mit 17 Bologneser Bürger:innen (öffentliche Präsentation des choreografischen Labors), Durational-Performance, **je 16:30**, **gratis** bis die Plätze voll sind, Stehplätze",
+   "when": "24./25.10.",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": null
+    },
+    {
+     "date": "2026-10-25",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Padiglione Esprit Nuovo, Piazza della Costituzione 11",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/vicino-vicinissimo/"
+    }
+   ],
+   "artist": "Daniele Ninarello"
+  },
+  {
+   "id": "bambu-2026-10-24",
+   "title": "BAMBU",
+   "text": "BAMBU — *danza e teatro contemporanei dal continente africano*: Diana Odhiambo *Thin Line*, Linda Sarki Johnson *Mahaka*, Stéphanie Mwamba *Kizazi*; konzipiert von Roberto Castello für ALDES; 90 Min. inkl. Gespräch, ab 10 €",
+   "when": "24.10., 17:00",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "17:00"
+    }
+   ],
+   "range": null,
+   "venue": "Sala Verdi",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/bambu/"
+    }
+   ],
+   "artist": "Tanz aus Afrika, kuratiert von Roberto Castello"
+  },
+  {
+   "id": "collectif-fair-e-ccn-de-rennes-temoin-saido-lehl-2026-10-24",
+   "title": "Témoin",
+   "text": "Collectif FAIR-E / CCN de Rennes: *Témoin* (Saïdo Lehlouh, 20 Tänzer:innen), ab 17,50 €",
+   "when": "24.10., 20:00",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/collectif-fair-e-ccn-de-rennes-et-de-bretagne-temoin/"
+    }
+   ],
+   "artist": "Collectif FAIR-E / CCN de Rennes"
+  },
+  {
+   "id": "lisa-vereertbrugghen-while-we-are-here-50-min-ab-2026-10-24",
+   "title": "While we are here",
+   "text": "Lisa Vereertbrugghen: *While we are here*, 50 Min., ab 10 €; ab 23:00 **gratis** Aftershow (DJ-Set, Book Club), nur mit Eventbrite-Reservierung (Ticketinhaber bevorzugt)",
+   "when": "24.10., 22:00",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "22:00"
+    }
+   ],
+   "range": null,
+   "venue": "Palestra S. M. Aosta",
+   "city": "Reggio Emilia",
+   "sparte": "Performance",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/lisa-vereertbrugghen/"
+    }
+   ],
+   "artist": "Lisa Vereertbrugghen"
+  },
+  {
+   "id": "gran-gala-stars-of-today-and-tomorrow-bologna-ba-2026-10-24",
+   "title": "Gran Gala – Stars of Today and Tomorrow",
+   "text": "**GRAN GALA – Stars of Today and Tomorrow** (Bologna Ballet Competition): Ballett des Serbischen Nationaltheaters mit den Gewinner:innen, künstl. Leitung Aja Jung; 20 €, ermäßigt 18 €, mini 15 €",
+   "when": "24.10., 21:00",
+   "dates": [
+    {
+     "date": "2026-10-24",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/gran-gala-stars-of-today-and-tomorrow/"
+    }
+   ],
+   "artist": "Bologna Ballet Competition"
+  },
+  {
+   "id": "verdi-aida-zeffirelli-trespidi-ab-30-2026-10-25",
+   "title": "Aida",
+   "text": "Verdi *Aida* (Zeffirelli / Trespidi), ab 30 €",
+   "when": "25.10., 15:30",
+   "dates": [
+    {
+     "date": "2026-10-25",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Verdi",
+   "city": "Busseto",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregioparma.it",
+     "url": "https://teatroregioparma.it/spettacolo/aida/"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "dear-son-2026-10-25",
+   "title": "Dear Son,",
+   "text": "*Dear Son,* — Compagnia Riva & Repele (Simone Repele / Sasha Riva), 9–30 €, **Rabatt** unter 30 18 € (Parkett) bzw. 8 € (Galerie), unter 20 9 €; anschließend Begegnung mit der Kompanie (21:30, [Seite](https://www.teatrocomunaleferrara.it/spettacolo/dear-son-2/))",
+   "when": "25.10., 20:30",
+   "dates": [
+    {
+     "date": "2026-10-25",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Ferrara",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunaleferrara.it",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/dear-son/"
+    }
+   ],
+   "artist": "Riva & Repele"
+  },
+  {
+   "id": "festival-aperto-musik-pianistmi-24-25-10-erik-be-2026-10-25",
+   "title": "PianIstmi 2–4",
+   "text": "Festival Aperto, Musik: *PianIstmi* 2–4: 25.10. Erik Bertsch *Echi e Risonanze* (Henze, Saariaho, Kurtág, Stroppa; Bühne Teatro Ariosto, [Seite](https://www.iteatri.re.it/spettacolo/pianistmi-2-4-erik-bertsch/)), 7.11. Aruan Ortiz *Cub(an)ismo* (Cavallerizza), 15.11. 18:00 Andrea Rebaudengo (Ridotto Teatro Valli), je ab 10 €, Paket 4 Konzerte 25 € (nur Kasse) · 1.11. Radiodervish (Cavallerizza, ab 29 €) · 15.11. 20:30 C'mon Tigre *LUMINA* (Teatro Ariosto, ab 20 €)",
+   "when": "25.10. 18:00 · 1.11. 21:00 · 7./15.11. 18:00 · 15.11. 20:30",
+   "dates": [
+    {
+     "date": "2026-10-25",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-01",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "s. Text",
+   "city": "Reggio Emilia",
+   "sparte": "Musik",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "PianIstmi 1",
+     "url": "https://www.iteatri.re.it/spettacolo/pianistmi-1-4-agnese-toniutti/"
+    },
+    {
+     "label": "Radiodervish",
+     "url": "https://www.iteatri.re.it/spettacolo/radiodervish/"
+    },
+    {
+     "label": "C'mon Tigre",
+     "url": "https://www.iteatri.re.it/spettacolo/cmon-tigre/"
+    }
+   ],
+   "artist": "Festival Aperto"
+  },
+  {
+   "id": "tcbo-sinfoniekonzert-roberto-abbado-chatschaturj-2026-10-26",
+   "title": "Abbado · Gringolts",
+   "text": "TCBO-Sinfoniekonzert: Roberto Abbado, Chatschaturjan und Schostakowitsch, Ilya Gringolts (Violine)",
+   "when": "26.10., 20:30",
+   "dates": [
+    {
+     "date": "2026-10-26",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/sinfonica-2026/"
+    }
+   ],
+   "artist": "TCBO Sinfonica: Chatschaturjan, Schostakowitsch"
+  },
+  {
+   "id": "bologna-jazz-festival-gratis-26-10-danilo-rea-so-2026-10-26",
+   "title": "BJF gratis: Danilo Rea, Martini Big Band, Zenón & Perdomo",
+   "text": "Bologna Jazz Festival **gratis**: 26.10. Danilo Rea Solo (MAST Auditorium, Reservierung) · 31.10. Martini Big Band feat. Alex Sipiagin (Sala Bossi, Conservatorio) — am 19.10. im Kalender belegt (außerdem 30.10. Torrione Ferrara, s. eigene Zeile) · 4.11. Miguel Zenón & Luis Perdomo (MAST, Reservierung). Außerdem **gratis**: 22.10. 21:30 Quartetto Tarot (Binario69, gratis für Under 30/Studierende, sonst 3 €, AICS-Karte) · 23.10. 21:00 Pagnozzi & Prosperini (Dude, Reservierung empfohlen) · 25.10. 21:30 Saxin' Rhythm (Sghetto, ARCI-Karte) · 29.10. 21:30 Premio Mutti/Gherardi (Camera Jazz) · 3.11. 19:00 Gipsy Lab Duo (Dude). Das BJF führt generell einen **Rabatt**-Tarif Under 30",
+   "when": "26.10. · 31.10. · 4.11., 21:00",
+   "dates": [
+    {
+     "date": "2026-10-26",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-11-04",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "s. Text",
+   "city": "Bologna",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://www.bolognajazzfestival.com/calendario.html"
+    }
+   ],
+   "artist": "Bologna Jazz Festival"
+  },
+  {
+   "id": "offene-probe-aterballetto-doppiogioco-philippe-k-2026-10-26",
+   "title": "Offene Probe: Doppiogioco",
+   "text": "**Offene Probe Aterballetto *DOPPIOGIOCO** (Philippe Kratz) mit Gespräch mit dem Choreografen; Premiere 7.11. im Teatro Valli; 3 €",
+   "when": "26.10., 18:00–19:00",
+   "dates": [
+    {
+     "date": "2026-10-26",
+     "time": "18:00 + 19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Offene Probe",
+   "cat": "probe",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/evento/doppiogioco-prova-aperta/"
+    }
+   ],
+   "artist": "Aterballetto / Philippe Kratz"
+  },
+  {
+   "id": "me-dea-2026-10-27",
+   "title": "Me.dea",
+   "text": "*Me.dea* — Manicomics TeatroCirco (Tanz/Zirkus), Reihe *L'allegria*; Uhrzeit nicht angegeben, **Rabatt** Under 25: 10 €",
+   "when": "27./28.10.",
+   "dates": [
+    {
+     "date": "2026-10-27",
+     "time": null
+    },
+    {
+     "date": "2026-10-28",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatri di Vita",
+   "city": "Bologna",
+   "sparte": "Tanz/Zirkus",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅ (Uhrzeit fehlt)",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/objects/l-allegria"
+    }
+   ],
+   "artist": "Manicomics TeatroCirco"
+  },
+  {
+   "id": "al-di-meola-acoustic-trio-bjf-2026-10-28",
+   "title": "Al Di Meola Acoustic Trio",
+   "text": "**Al Di Meola Acoustic Trio** (BJF) — mit Peo Alfonsi und Sergio Martinez",
+   "when": "28.10., 21:15",
+   "dates": [
+    {
+     "date": "2026-10-28",
+     "time": "21:15"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://www.bolognajazzfestival.com/2026/al-di-meola-acoustic-trio.html"
+    }
+   ],
+   "artist": "Bologna Jazz Festival"
+  },
+  {
+   "id": "opera-guccini-orchester-des-tcbo-ltg-nidi-2026-10-29",
+   "title": "Opera Guccini",
+   "text": "*Opera Guccini* (Orchester des TCBO, Ltg. Nidi) — 29./30.10. 21:00 · 31.10. 18:00; 23–36 € — **SOLD OUT** (am 19.10. bestätigt); **gratis** Einführungen am 9. und 23.10. s. eigene Zeile",
+   "when": "29.–31.10.",
+   "dates": [
+    {
+     "date": "2026-10-29",
+     "time": null
+    },
+    {
+     "date": "2026-10-30",
+     "time": null
+    },
+    {
+     "date": "2026-10-31",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Musiktheater",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": "full",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/opera-guccini-concerto-sinfonico/"
+    }
+   ],
+   "artist": "Orchester des TCBO, Ltg. Nidi"
+  },
+  {
+   "id": "gender-bender-2026-24-ausgabe-tanz-als-hauptsekt-2026-10-29",
+   "title": "Gender Bender 2026",
+   "text": "**Gender Bender 2026**, 24. Ausgabe (Tanz als Hauptsektion) — **Programm jetzt online**; Tanzstücke als eigene Zeilen. Tanz 13 €, **Rabatt** Under 30/Over 65/Card Cultura 8 €, Unibo/Ababo/Under 20 6 €; Tanz-Abo 3 Stücke 18 € / 5 Stücke 30 € (Vorbestellung per E-Mail bis 26.10.); Kasse nur im Cassero, 29.10.–6.11., 15–17 Uhr, sonst TicketSms",
+   "when": "29.10.–7.11.",
+   "dates": [],
+   "range": {
+    "start": "2026-10-29",
+    "end": "2026-11-07"
+   },
+   "venue": "diverse",
+   "city": "Bologna",
+   "sparte": "Festival",
+   "cat": "festival",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/programma-2026/"
+    },
+    {
+     "label": "Tickets",
+     "url": "https://genderbender.it/biglietti-abbonamenti-e-modalita-di-ingresso-a-gender-bender-festival-2026/"
+    }
+   ],
+   "artist": "Festival, Tanz als Hauptsektion"
+  },
+  {
+   "id": "30-10-kevenhuller-teatro-medico-ipnotico-figuren-2026-10-30",
+   "title": "Kevenhüller · Arto Lindsay",
+   "text": "Festival Aperto: 30.10. *Kevenhüller* (Teatro Medico Ipnotico, Figurentheater), Cavallerizza, ab 5 € · 31.10. **Arto Lindsay *The Ghost of Unity*** (mit Melvin Gibbs, Icarus Ensemble), Teatro Valli, ab 15 €; Rabatt* Under 30 −30 %",
+   "when": "30.10., 20:30 · 31.10., 20:30",
+   "dates": [
+    {
+     "date": "2026-10-30",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "s. Text",
+   "city": "Reggio Emilia",
+   "sparte": "Musik/Theater",
+   "cat": "theatre",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/il-conte-di-kevenhuller/"
+    },
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/arto-lindsay-the-ghost-of-unity/"
+    }
+   ],
+   "artist": "Festival Aperto"
+  },
+  {
+   "id": "verdi-macbeth-finzi-ceresa-2026-10-30",
+   "title": "Macbeth",
+   "text": "Verdi *Macbeth* (Finzi / Ceresa; Zelenkov, Santoro), Eröffnung der Opernsaison; 19,50–65 €, **Rabatt** unter 30 21,50–39 €; Vorverkauf läuft seit 3.10. Einführung *Invito all'Opera* 29.10. 18:00 mit Emilio Sala, **gratis**",
+   "when": "30.10. 20:00 · 1.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-10-30",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-01",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/giuseppe-verdi-macbeth-2/"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "martini-big-band-ltg-michele-corcella-feat-alex--2026-10-30",
+   "title": "Martini Big Band feat. Alex Sipiagin",
+   "text": "BJF: Martini Big Band (Ltg. Michele Corcella) feat. Alex Sipiagin *Miles Ahead & More*; 20 €, BJ Card 15 €, **Rabatt** Under 30 10 €, Studierende 5 €; Endas-Karte Pflicht",
+   "when": "30.10., 21:30",
+   "dates": [
+    {
+     "date": "2026-10-30",
+     "time": "21:30"
+    }
+   ],
+   "range": null,
+   "venue": "Torrione Jazz Club",
+   "city": "Ferrara",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://www.bolognajazzfestival.com/calendario.html"
+    }
+   ],
+   "artist": "Bologna Jazz Festival"
+  },
+  {
+   "id": "gruppo-nanou-redrum-2026-10-30",
+   "title": "redrum",
+   "text": "Gender Bender: **gruppo nanou *redrum*** — choreografische Durational-Installation (Premio Ubu 2024), Publikum bewegt sich frei; gratis* ohne Reservierung, solange Plätze frei",
+   "when": "30./31.10., je 20:00",
+   "dates": [
+    {
+     "date": "2026-10-30",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Palazzo Bentivoglio, Sotterranei, Via del Borgo di San Pietro",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/redrum/"
+    }
+   ],
+   "artist": "gruppo nanou"
+  },
+  {
+   "id": "jana-jacuka-ha-nl-solo-mit-stimme-50-min-englisc-2026-10-30",
+   "title": "HA",
+   "text": "Gender Bender: Jana Jacuka *HA* (NL), Solo mit Stimme, 50 Min., Englisch mit ital. Text; 30.10. Gespräch danach; 13 €, **Rabatt** Under 30 8 €, Unibo/Under 20 6 €",
+   "when": "30.10. 19:00 · 31.10. 22:00",
+   "dates": [
+    {
+     "date": "2026-10-30",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-10-31",
+     "time": "22:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro San Leonardo (AngelicA), Via San Vitale",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/ha/"
+    }
+   ],
+   "artist": "Jana Jacuka"
+  },
+  {
+   "id": "hausfuhrung-teatro-comunale-pavarotti-freni-auch-2026-10-31",
+   "title": "Hausführung Teatro Pavarotti-Freni",
+   "text": "Hausführung Teatro Comunale Pavarotti-Freni (auch Kostümwerkstatt und Szenografie), 10 €, Kinder 6–12 J. 8 €; Buchung über [visitmodena.it](http://visitmodena.it). Am 19.10. unverändert (weiterer Termin 20.12.); auf [teatrocomunalemodena.it](http://teatrocomunalemodena.it) weiterhin keine Termine",
+   "when": "31.10. · 14.11. · 21.11., je 15:00 + 16:30",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "15:00 + 16:30"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:00 + 16:30"
+    },
+    {
+     "date": "2026-11-21",
+     "time": "15:00 + 16:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Hausführung",
+   "cat": "tour",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Stadtseite comune.modena.it (nicht Tier 1/2)",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "comune.modena.it",
+     "url": "https://www.comune.modena.it/vivere-modena/eventi/2026/visite-guidate-al-teatro-pavarotti-freni-7"
+    }
+   ],
+   "artist": "mit Kostümwerkstatt und Szenografie"
+  },
+  {
+   "id": "silvia-gribaudi-suspended-chorus-60-min-2026-10-31",
+   "title": "Suspended Chorus",
+   "text": "Gender Bender: **Silvia Gribaudi *Suspended Chorus***, 60 Min.; 13 €, Rabatt* 8 € / 6 €",
+   "when": "31.10., 20:00",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/suspended-chorus/"
+    }
+   ],
+   "artist": "Silvia Gribaudi"
+  },
+  {
+   "id": "armin-hokmi-of-the-heart-an-etude-prima-nazional-2026-10-31",
+   "title": "Of the Heart – An Etude",
+   "text": "Gender Bender: **Armin Hokmi *Of the Heart – An Etude*** (*prima nazionale*, IR/DE/NO), 35 Min., Stehplätze; 13 €, Rabatt* 8 € / 6 €",
+   "when": "31.10. 18:00 · 1.11. 20:00",
+   "dates": [
+    {
+     "date": "2026-10-31",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-01",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Ex chiesa di San Mattia, Via Sant'Isaia 14",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/of-the-heart-an-etude/"
+    }
+   ],
+   "artist": "Armin Hokmi"
+  },
+  {
+   "id": "artemis-danza-monica-casadei-laudato-sie-festiva-2026-11-01",
+   "title": "Laudato Sie",
+   "text": "Artemis Danza / Monica Casadei: *Laudato Sie* (Festival LODE), kein Preis angegeben",
+   "when": "1.11., 11:30",
+   "dates": [
+    {
+     "date": "2026-11-01",
+     "time": "11:30"
+    }
+   ],
+   "range": null,
+   "venue": "Tempio Crematorio di Valera",
+   "city": "Parma",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=28%2F09%2F2026&c_al=23%2F11%2F2026&c_l=&c_s=laudato&c_cerca=cerca"
+    }
+   ],
+   "artist": "Artemis Danza / Monica Casadei"
+  },
+  {
+   "id": "riccardo-de-simone-everybody-has-a-fate-gewinner-2026-11-01",
+   "title": "Everybody Has a Fate",
+   "text": "Gender Bender: Riccardo De Simone *Everybody Has a Fate* (Gewinner DNAppunti coreografici 2025), 50 Min.; 13 €, **Rabatt** 8 € / 6 €",
+   "when": "1.11. 18:00 · 2.11. 21:00",
+   "dates": [
+    {
+     "date": "2026-11-01",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-02",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "DAMSLab, Piazzetta P. P. Pasolini",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/everybody-has-a-fate/"
+    }
+   ],
+   "artist": "Riccardo De Simone"
+  },
+  {
+   "id": "gender-bender-workshops-gratis-anmeldung-an-labo-2026-11-01",
+   "title": "Gender-Bender-Workshops",
+   "text": "Gender-Bender-Workshops, **gratis**, Anmeldung an [laboratori@genderbender.it](mailto:laboratori@genderbender.it): 1.11. *Disobeying Voice* mit Jana Jacuka (DAS) · 6.11. *Appunti clandestini per un'autobiografia collettiva* mit Chiara Bersani / Flavia Dalila D'Amico (MAMbo)",
+   "when": "1.11. 11:30 · 6.11. 14:30",
+   "dates": [
+    {
+     "date": "2026-11-01",
+     "time": "11:30"
+    },
+    {
+     "date": "2026-11-06",
+     "time": "14:30"
+    }
+   ],
+   "range": null,
+   "venue": "DAS / MAMbo",
+   "city": "Bologna",
+   "sparte": "Workshop",
+   "cat": "workshop",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "Disobeying Voice",
+     "url": "https://genderbender.it/evento/disobeying-voice/"
+    },
+    {
+     "label": "Appunti clandestini",
+     "url": "https://genderbender.it/evento/appunti-clandestini-per-unautobiografia-collettiva/"
+    }
+   ],
+   "artist": "Disobeying Voice, Appunti clandestini"
+  },
+  {
+   "id": "kurt-elling-und-the-yellowjackets-celebrate-weat-2026-11-03",
+   "title": "Celebrate Weather Report",
+   "text": "Kurt Elling und The Yellowjackets: *Celebrate Weather Report* (BJF); 35 € (2. Galerie) / 44 € — **nicht ausverkauft** (12.10.: Detailseite mit Kauf-Link; der „soldout“-Vermerk der Übersicht gehört zur Folgeveranstaltung)",
+   "when": "3.11., 21:15",
+   "dates": [
+    {
+     "date": "2026-11-03",
+     "time": "21:15"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/kurt-elling-yellowjackets-bologna-jazz-festival-2026/"
+    }
+   ],
+   "artist": "Kurt Elling & The Yellowjackets"
+  },
+  {
+   "id": "mohabbat-uber-den-iran-tanz-afshin-varjavandi-2026-11-03",
+   "title": "Mohábbat",
+   "text": "*Mohábbat* (über den Iran), Tanz, Afshin Varjavandi — Reihe *L'allegria*",
+   "when": "3.11., 21:00",
+   "dates": [
+    {
+     "date": "2026-11-03",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatri di Vita",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/objects/l-allegria"
+    },
+    {
+     "label": "teatridivita.it",
+     "url": "https://www.teatridivita.it/calendario-stagione-2026/"
+    }
+   ],
+   "artist": "Afshin Varjavandi"
+  },
+  {
+   "id": "lazin-on-a-sunny-afternoon-arte-e-salute-regie-n-2026-11-03",
+   "title": "Lazin' on a sunny afternoon",
+   "text": "*Lazin' on a sunny afternoon* (Arte e Salute, Regie Nicola Berti) — 3./5./7.11. 20:30 · 4./6.11. 19:00 · 8.11. 17:00; ab 8,18 €",
+   "when": "3.–8.11.",
+   "dates": [
+    {
+     "date": "2026-11-03",
+     "time": null
+    },
+    {
+     "date": "2026-11-04",
+     "time": null
+    },
+    {
+     "date": "2026-11-05",
+     "time": null
+    },
+    {
+     "date": "2026-11-06",
+     "time": null
+    },
+    {
+     "date": "2026-11-07",
+     "time": null
+    },
+    {
+     "date": "2026-11-08",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Moline",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/lazin-on-a-sunny-afternoon-3/"
+    }
+   ],
+   "artist": "Arte e Salute"
+  },
+  {
+   "id": "solene-weinachter-after-all-prima-nazionale-fr-s-2026-11-04",
+   "title": "After All",
+   "text": "Gender Bender: **Solène Weinachter *After All*** (*prima nazionale*, FR/SCO), Tanz und Text über den Tod, 65 Min., Englisch mit ital. Übertiteln; 13 €, Rabatt 8 € / 6 €; 5.11. 11:00 Gespräch *Beyond After All*",
+   "when": "4.11. 21:00 · 5.11. 19:00",
+   "dates": [
+    {
+     "date": "2026-11-04",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-11-05",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "DAS Dispositivo Arti Sperimentali, Via del Porto",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/after-all/"
+    }
+   ],
+   "artist": "Solène Weinachter"
+  },
+  {
+   "id": "est-roman-coulon-a-la-recherche-du-temps-perdu-2-2026-11-04",
+   "title": "À la recherche du temps perdu",
+   "text": "Gender Bender: Est Roman Coulon *À la recherche du temps perdu*, 25 Min., Performance für je eine Person; 10 € (nicht im Abo), nur online ab 29.10.",
+   "when": "4.–7.11., täglich 15:00",
+   "dates": [
+    {
+     "date": "2026-11-04",
+     "time": "15:00"
+    },
+    {
+     "date": "2026-11-05",
+     "time": "15:00"
+    },
+    {
+     "date": "2026-11-06",
+     "time": "15:00"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "15:00"
+    }
+   ],
+   "range": null,
+   "venue": "Casa di Riposo Lyda Borelli, Via Saragozza",
+   "city": "Bologna",
+   "sparte": "Performance",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/a-la-recherche-du-temps-perdu/"
+    }
+   ],
+   "artist": "Est Roman Coulon"
+  },
+  {
+   "id": "filarmonica-del-teatro-comunale-di-modena-ltg-hi-2026-11-04",
+   "title": "Yoshida · Gibboni",
+   "text": "Filarmonica del Teatro Comunale di Modena, Ltg. Hirofumi Yoshida, Violine Giuseppe Gibboni: Beethoven Violinkonzert, Brahms 4. Sinfonie (Eröffnung der Sinfoniesaison); 9–30 €, **Rabatt** 19–30 J. 12,50–18 €; Vorverkauf ab 13.10.",
+   "when": "4.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-04",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/filarmonica-del-teatro-comunale-di-modena-5/"
+    }
+   ],
+   "artist": "Filarmonica Modena: Beethoven, Brahms"
+  },
+  {
+   "id": "compagnia-natiscalzi-dt-un-canto-necessario-anti-2026-11-04",
+   "title": "Un canto necessario",
+   "text": "Compagnia Natiscalzi DT: *Un canto necessario (Antigone)* (Premiere; Chor. Claudia Rossi Valli / Tommaso Monza); 10 €, **Rabatt** Under 30 6 €",
+   "when": "4.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-04",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/evento/antigone-un-canto-necessario-premiere/"
+    }
+   ],
+   "artist": "Compagnia Natiscalzi DT"
+  },
+  {
+   "id": "cob-compagnia-opus-ballet-callas-callas-callas-c-2026-11-04",
+   "title": "Callas Callas Callas",
+   "text": "COB Compagnia Opus Ballet: *Callas Callas Callas* (Chor. Adriano Bolognino, Carlo Massari, Roberto Tedesco); kein Preis angegeben",
+   "when": "4.11., 21:00",
+   "dates": [
+    {
+     "date": "2026-11-04",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Carpi (MO)",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=19%2F10%2F2026&c_al=14%2F12%2F2026&c_l=&c_s=danza&c_cerca=cerca"
+    }
+   ],
+   "artist": "COB Compagnia Opus Ballet"
+  },
+  {
+   "id": "escaped-alone-caryl-churchill-lacasadargilla-tea-2026-11-05",
+   "title": "Escaped Alone · Carnovale",
+   "text": "*Escaped Alone* (Caryl Churchill, lacasadargilla), Teatro delle Passioni: 5.11. 19:00 · 6.11. 20:30 · 7.11. 19:00 · 8.11. 18:00, ab 13,08 € · *Una delle ultime sere di Carnovale* (Binasco), Teatro Storchi: 5./6.11. 20:30 · 7.11. 19:00 · 8.11. 16:00, ab 11,99 €",
+   "when": "5.–8.11.",
+   "dates": [
+    {
+     "date": "2026-11-05",
+     "time": null
+    },
+    {
+     "date": "2026-11-06",
+     "time": null
+    },
+    {
+     "date": "2026-11-07",
+     "time": null
+    },
+    {
+     "date": "2026-11-08",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "s. Text",
+   "city": "Modena",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "Escaped Alone",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/escaped-alone/"
+    },
+    {
+     "label": "Carnovale",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/una-delle-ultime-sere-di-carnovale/"
+    }
+   ],
+   "artist": "lacasadargilla, Binasco"
+  },
+  {
+   "id": "henze-voices-2026-11-05",
+   "title": "Voices",
+   "text": "Henze *Voices* — NEUE ensemble, Ltg. Carlo Boccadoro (Festival Aperto), ab 15 €, **Rabatt** Under 30 −30 %",
+   "when": "5.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-05",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Cavallerizza",
+   "city": "Reggio Emilia",
+   "sparte": "Musiktheater",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/voices-di-hans-werner-henze/"
+    }
+   ],
+   "artist": "Henze"
+  },
+  {
+   "id": "roberto-castello-mbira-kein-preis-angegeben-2026-11-06",
+   "title": "Mbira",
+   "text": "Roberto Castello: *Mbira*, kein Preis angegeben",
+   "when": "6.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Dadà",
+   "city": "Castelfranco Emilia (MO)",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=28%2F09%2F2026&c_al=23%2F11%2F2026&c_l=&c_s=mbira&c_cerca=cerca"
+    }
+   ],
+   "artist": "Roberto Castello"
+  },
+  {
+   "id": "raffaella-giordano-stefania-tansini-tu-non-mi-pe-2026-11-06",
+   "title": "Tu non mi perderai mai",
+   "text": "Raffaella Giordano / Stefania Tansini: *Tu non mi perderai mai* (Projekt 2005–2025), 45 Min., ab 10 €",
+   "when": "6.11., 19:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "19:30"
+    }
+   ],
+   "range": null,
+   "venue": "Palcoscenico Teatro Ariosto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/raffaella-giordano-stefania-tansini-tu-non-mi-perderai-mai/"
+    }
+   ],
+   "artist": "Raffaella Giordano / Stefania Tansini"
+  },
+  {
+   "id": "anzelika-cholina-dance-theatre-anna-karenina-2026-11-06",
+   "title": "Anna Karenina",
+   "text": "Anželika Cholina Dance Theatre: *Anna Karenina*; 10,50–35 € (Danza-Übersicht: 12,50–35 €), **Rabatt** 19–30 J. 21–31,50 €; Vorverkauf ab 20.10.",
+   "when": "6.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/compagnia-anzelika-cholina-dance-theatre/"
+    }
+   ],
+   "artist": "Anželika Cholina Dance Theatre"
+  },
+  {
+   "id": "tcbo-sinfoniekonzert-alpesh-chauhan-weinberg-und-2026-11-06",
+   "title": "Chauhan · Brunello",
+   "text": "TCBO-Sinfoniekonzert: Alpesh Chauhan, Weinberg und Bruckner, Mario Brunello (Cello)",
+   "when": "6.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/sinfonica-2026/"
+    }
+   ],
+   "artist": "TCBO Sinfonica: Weinberg, Bruckner"
+  },
+  {
+   "id": "emmet-cohen-quintet-miles-and-coltrane-at-100-bj-2026-11-06",
+   "title": "Miles and Coltrane at 100",
+   "text": "Emmet Cohen Quintet: *Miles and Coltrane at 100* (BJF)",
+   "when": "6.11., 21:15",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "21:15"
+    }
+   ],
+   "range": null,
+   "venue": "Unipol Auditorium",
+   "city": "Bologna",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://bolognajazzfestival.com/2026/emmet-cohen.html"
+    }
+   ],
+   "artist": "Emmet Cohen Quintet"
+  },
+  {
+   "id": "wagner-der-fliegende-hollander-2026-11-06",
+   "title": "Der fliegende Holländer",
+   "text": "Wagner *Der fliegende Holländer* — ersetzt das ursprünglich angekündigte *Lohengrin*; Neuproduktion mit Modena; keine Preise auf der Seite",
+   "when": "6.11. 20:00 · 8.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Municipale",
+   "city": "Piacenza",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur teatripiacenza.it (nicht Tier 1/2; im Notion-Stand als ✅ geführt)",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatripiacenza.it",
+     "url": "https://teatripiacenza.it/event/der-fliegende-hollander-lolandese-volante/"
+    }
+   ],
+   "artist": "Wagner"
+  },
+  {
+   "id": "il-mago-di-redonda-lino-guanciale-urauffuhrung-2026-11-06",
+   "title": "Il Mago di Redonda",
+   "text": "*Il Mago di Redonda* (Lino Guanciale), Uraufführung; ab 8,18 €",
+   "when": "6.11. 20:30 · 7.11. 19:00",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/il-mago-di-redonda/"
+    }
+   ],
+   "artist": "Lino Guanciale"
+  },
+  {
+   "id": "sami-lea-samira-bernath-spooning-entre-les-monta-2026-11-06",
+   "title": "Spooning&Entre.les.montagnes",
+   "text": "Gender Bender: Sami Lea Samira Bernath *Spooning&Entre.les.montagnes* (*prima nazionale*, CH), 30 Min.; 13 €, **Rabatt** 8 € / 6 €",
+   "when": "6.11. 18:00 · 7.11. 16:30",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "16:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro del Baraccano",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/spooningentre-les-montagnes/"
+    }
+   ],
+   "artist": "Sami Lea Samira Bernath"
+  },
+  {
+   "id": "elena-antoniou-ode-cy-43-min-stehplatze-strobosk-2026-11-06",
+   "title": "ODE",
+   "text": "Gender Bender: Elena Antoniou *ODE* (CY), 43 Min., Stehplätze, Stroboskop; 13 €, **Rabatt** 8 € / 6 €",
+   "when": "6./7.11., je 20:00",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Ex chiesa di San Mattia, Via Sant'Isaia 14",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/ode/"
+    }
+   ],
+   "artist": "Elena Antoniou"
+  },
+  {
+   "id": "jacopo-jenna-manifestus-3-performer-innen-gesten-2026-11-06",
+   "title": "Manifestus",
+   "text": "Gender Bender: **Jacopo Jenna *Manifestus*** (3 Performer:innen, Gesten aus Tutting/Voguing/Flexing), 40 Min.; 13 €, Rabatt* 8 € / 6 €",
+   "when": "6.11. 22:00 · 7.11. 18:00",
+   "dates": [
+    {
+     "date": "2026-11-06",
+     "time": "22:00"
+    },
+    {
+     "date": "2026-11-07",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "DAS, Via del Porto",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/manifestus/"
+    }
+   ],
+   "artist": "Jacopo Jenna"
+  },
+  {
+   "id": "storie-e-segreti-dell-arena-del-sole-2026-11-07",
+   "title": "Storie e segreti dell'Arena del Sole",
+   "text": "*Storie e segreti dell'Arena del Sole* — Hausführung mit #narrandoBO, 70 Min., 10 €; am 19.10. noch kein Buchungslink für November (Vivaticket-Link nur für Oktober); nicht für Menschen mit eingeschränkter Mobilität empfohlen; 19.12. neu",
+   "when": "7./8.11. · 28./29.11. · 19.12., je 12:00",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "12:00"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "12:00"
+    },
+    {
+     "date": "2026-11-28",
+     "time": "12:00"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "12:00"
+    },
+    {
+     "date": "2026-12-19",
+     "time": "12:00"
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole",
+   "city": "Bologna",
+   "sparte": "Hausführung",
+   "cat": "tour",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/storie-e-segreti-dellarena-del-sole/"
+    }
+   ],
+   "artist": "Hausführung"
+  },
+  {
+   "id": "aterballetto-ceneri-marcos-morau-urauffuhrung-do-2026-11-07",
+   "title": "Ceneri · Doppiogioco",
+   "text": "**Aterballetto: *Ceneri* (Marcos Morau, Uraufführung) · *Doppiogioco* (Philippe Kratz, Uraufführung)**, ab 20 €",
+   "when": "7.11. 20:30 · 8.11. 17:00",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-08",
+     "time": "17:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/centro-coreografico-nazionale-aterballetto-ceneri-doppiogioco/"
+    }
+   ],
+   "artist": "Aterballetto (Morau, Kratz)"
+  },
+  {
+   "id": "daniele-ninarello-rise-live-musik-dan-kinzelman--2026-11-07",
+   "title": "RISE",
+   "text": "Gender Bender: Daniele Ninarello *RISE*, Live-Musik Dan Kinzelman, 45 Min., Stehplätze; 10 € inkl. Party, nicht im Abo",
+   "when": "7.11., 22:00 (Einlass 21:30)",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "22:00 + 21:30"
+    }
+   ],
+   "range": null,
+   "venue": "Cassero LGBTQIA+ Center, Via Don Minzoni 18",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/evento/rise/"
+    }
+   ],
+   "artist": "Daniele Ninarello"
+  },
+  {
+   "id": "variazioni-per-ammutinamenti-abschlussprasentati-2026-11-07",
+   "title": "Variazioni per Ammutinamenti",
+   "text": "*Variazioni per Ammutinamenti*: Abschlusspräsentation Kurs „Alta Formazione“ (14 Teilnehmende)",
+   "when": "7.11., 10:00",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "10:00"
+    }
+   ],
+   "range": null,
+   "venue": "Artificerie Almagià",
+   "city": "Ravenna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Presse; Rassegna-Seite zeigt am 12.10. nur Oktober-Termine",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/rassegna/variazioni-per-ammutinamenti-2026/"
+    }
+   ],
+   "artist": "Abschlusspräsentation Alta Formazione"
+  },
+  {
+   "id": "ballett-der-scala-apollo-balanchine-le-sacre-du--2026-11-07",
+   "title": "Apollo / Le Sacre du printemps",
+   "text": "**Ballett der Scala: *Apollo* (Balanchine) / *Le Sacre du printemps* (Pina Bausch)** — Scala tanzt Bauschs *Sacre* erstmals, mit der Pina Bausch Foundation; Ltg. Ido Arad; Roberto Bolle als Apollo am 7., 11., 12., 18. und 19.11.; Premiere und 11.11. letzte Plätze, übrige verfügbar (Stand 19.10. unverändert) (19.11. 14:30 = „Invitation La Scala“, neu); **Rabatt** Under 35 am 18.11. und 19.11. abends",
+   "when": "Premiere 7.11., 20:00 · 11.–14.11. 20:00 · 15.11. 14:30 · 18.11. 20:00 · 19.11. 14:30 20:00 · 21.11. 20:00",
+   "dates": [
+    {
+     "date": "2026-11-07",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-11",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-12",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-13",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "14:30"
+    },
+    {
+     "date": "2026-11-18",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-19",
+     "time": "14:30 + 20:00"
+    },
+    {
+     "date": "2026-11-21",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro alla Scala",
+   "city": "Mailand",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": "few",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroallascala.org",
+     "url": "https://www.teatroallascala.org/en/season/2025-2026/ballet/balanchine-bausch-stravinsky.html"
+    }
+   ],
+   "artist": "Ballett der Scala (Balanchine, Bausch)"
+  },
+  {
+   "id": "stefania-tansini-madeleine-ab-10-2026-11-08",
+   "title": "Madeleine",
+   "text": "Stefania Tansini: *Madeleine*, ab 10 €",
+   "when": "8.11., 15:30",
+   "dates": [
+    {
+     "date": "2026-11-08",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Sala degli Specchi, Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/stefania-tansini-madeleine/"
+    }
+   ],
+   "artist": "Stefania Tansini"
+  },
+  {
+   "id": "anzelika-cholina-dance-theatre-anna-karenina-2026-11-08",
+   "title": "Anna Karenina",
+   "text": "Anželika Cholina Dance Theatre: *Anna Karenina* — Abschluss des Ferrareser Tanzfestivals; 9–39 €; **Rabatt** unter 30 12,50–23,50 €; Begegnung mit der Kompanie 17:00 ([Seite](https://www.teatrocomunaleferrara.it/spettacolo/anna-karenina-2/))",
+   "when": "8.11., 16:00",
+   "dates": [
+    {
+     "date": "2026-11-08",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Ferrara",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunaleferrara.it",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/anna-karenina/"
+    }
+   ],
+   "artist": "Anželika Cholina Dance Theatre"
+  },
+  {
+   "id": "close-embrace-1-bologna-swing-dancers-zwei-sale--2026-11-08",
+   "title": "Close Embrace #1",
+   "text": "Close Embrace #1 (Bologna Swing Dancers): zwei Säle (Blues und Balboa), zu Beginn Charleston-Workshop; 8 €, Mitglieder frei (Mitgliedsbeitrag 5 €), nur Mitglieder/AICS-Karte",
+   "when": "8.11., 18:30–23:45",
+   "dates": [
+    {
+     "date": "2026-11-08",
+     "time": "18:30 + 23:45"
+    }
+   ],
+   "range": null,
+   "venue": "Via Camillo Casarini 19",
+   "city": "Bologna",
+   "sparte": "Swing/Blues",
+   "cat": "social",
+   "region": "bologna",
+   "status": "check",
+   "statusNote": "🟡 nur Vereinsseite",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognaswing.it",
+     "url": "https://www.bolognaswing.it/it/eventi-swing-bologna/calendario"
+    }
+   ],
+   "artist": "Bologna Swing Dancers"
+  },
+  {
+   "id": "memorare-26-danza-e-canto-per-il-creato-2026-11-08",
+   "title": "Memorare '26",
+   "text": "*Memorare '26 – Danza e canto per il Creato* — klassische und zeitgenössische Choreografien zum Sonnengesang, darunter eine Uraufführung; Chor der Cappella Musicale di San Petronio, Musiker:innen des TCBO; Bologna Festival. **gratis** (Reservierung auf der Seite nicht erwähnt); Generalprobe für Schulen/junges Publikum",
+   "when": "8.11. 17:00 (offene Generalprobe) · 9.11. 20:30",
+   "dates": [
+    {
+     "date": "2026-11-08",
+     "time": "17:00"
+    },
+    {
+     "date": "2026-11-09",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Basilica di San Petronio",
+   "city": "Bologna",
+   "sparte": "Tanz/Offene Probe",
+   "cat": "probe",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "bolognawelcome.com",
+     "url": "https://www.bolognawelcome.com/it/eventi/musica-e-danza/memorare-it"
+    }
+   ],
+   "artist": "Danza e canto per il Creato"
+  },
+  {
+   "id": "bologna-jazz-festival-2026-11-08",
+   "title": "Bologna Jazz Festival",
+   "text": "**Bologna Jazz Festival** — rund 45 Konzerte in Bologna, Ferrara und Forlì; u. a. 1.11. 22:00 Judith Hill (Bravo Caffè, 38 €, kein Ausverkauf) · 5.11. 22:00 Steve White Trio (Bravo, 25 €) · 4.11. 18:00 Laboratorio Sociale Afrobeat mit Abschlusskonzert (Binario69, **gratis**). Viele Club-Konzerte mit **Rabatt** Under 30/Studierende (5–15 €). Ticketseite: **Rabatt** Under 30 −20 %, Konservatorium 10 €. Kalender reicht am 19.10. bis 7.11.; keine Sold-out-Vermerke. Workshop Trio Grande (8.11.) am 19.10. nicht mehr im Kalender (Trio Grande nur als Konzert 5./6.11., Angaben widersprüchlich) — 🟡",
+   "when": "bis 8.11.",
+   "dates": [],
+   "range": {
+    "start": null,
+    "end": "2026-11-08"
+   },
+   "venue": "Theater und Clubs",
+   "city": "Bologna u. a.",
+   "sparte": "Jazz",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://www.bolognajazzfestival.com/calendario.html"
+    }
+   ],
+   "artist": "rund 45 Konzerte"
+  },
+  {
+   "id": "filarmonica-della-scala-riccardo-chailly-rachman-2026-11-10",
+   "title": "Filarmonica della Scala",
+   "text": "Filarmonica della Scala / Riccardo Chailly (Rachmaninow, Tschaikowsky); 30–50 €, **Rabatt** Under 30 −30 %",
+   "when": "10.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-10",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/filarmonica-della-scala-riccardo-chailly/"
+    }
+   ],
+   "artist": "Riccardo Chailly"
+  },
+  {
+   "id": "chamber-orchestra-of-europe-antonio-pappano-klav-2026-11-10",
+   "title": "Chamber Orchestra of Europe",
+   "text": "Chamber Orchestra of Europe / Antonio Pappano, Klavier Alexandre Kantorow; 16,50–55 €",
+   "when": "10.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-10",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/chamber-orchestra-of-europe-2/"
+    }
+   ],
+   "artist": "Antonio Pappano, Alexandre Kantorow"
+  },
+  {
+   "id": "egribiancodanza-mystery-sonata-raphael-bianco-18-2026-11-10",
+   "title": "Mystery Sonata",
+   "text": "EgriBiancoDanza *Mystery Sonata* (Raphael Bianco): 18:00 **offene Probe** 3 € · 20:30 Vorstellung 10 €, **Rabatt** Under 30 6 €",
+   "when": "10.11., 18:00 · 20:30",
+   "dates": [
+    {
+     "date": "2026-11-10",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz/Offene Probe",
+   "cat": "probe",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/evento/mystery-sonata/2026-11-10/1/"
+    }
+   ],
+   "artist": "EgriBiancoDanza / Raphael Bianco"
+  },
+  {
+   "id": "viaggio-a-hong-kong-pascal-rambert-sandro-lombar-2026-11-11",
+   "title": "Viaggio a Hong Kong",
+   "text": "*Viaggio a Hong Kong* (Pascal Rambert / Sandro Lombardi) — 11./14.11. 21:00 · 12./13.11. 19:00 · 15.11. 18:00",
+   "when": "11.–15.11.",
+   "dates": [
+    {
+     "date": "2026-11-11",
+     "time": null
+    },
+    {
+     "date": "2026-11-12",
+     "time": null
+    },
+    {
+     "date": "2026-11-13",
+     "time": null
+    },
+    {
+     "date": "2026-11-14",
+     "time": null
+    },
+    {
+     "date": "2026-11-15",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Thierry Salmon",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/viaggio-a-hong-kong/"
+    }
+   ],
+   "artist": "Pascal Rambert / Sandro Lombardi"
+  },
+  {
+   "id": "modena-belcanto-festival-3-ausgabe-2026-11-12",
+   "title": "Reincarnations",
+   "text": "**Modena BelCanto Festival**, 3. Ausgabe — letzter Termin: 12.11. 20:30 Caterina Barbieri & Fontanamix Ensemble, UA *Reincarnations* (Teatro Comunale, 20/14 €). **Rabatt** −35 % ab 5, −40 % ab 10 Events. Resttermine am 12.10. auf den Einzelseiten geprüft",
+   "when": "12.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-12",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Pavarotti-Freni u. a.",
+   "city": "Modena",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/modena-belcanto-festival/"
+    }
+   ],
+   "artist": "Modena BelCanto Festival · Caterina Barbieri"
+  },
+  {
+   "id": "asteroide-marco-d-agostin-2026-11-12",
+   "title": "Asteroide",
+   "text": "E'BAL: *Asteroide* (Marco D'Agostin)",
+   "when": "12.11., 21:00",
+   "dates": [
+    {
+     "date": "2026-11-12",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Spazio Tondelli, Via Don Giovanni Minzoni 1",
+   "city": "Riccione",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite ATER (nicht Tier 1/2)",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "ebal.ater.emr.it",
+     "url": "https://ebal.ater.emr.it/"
+    }
+   ],
+   "artist": "Marco D'Agostin"
+  },
+  {
+   "id": "april-fanny-alexander-2026-11-12",
+   "title": "April",
+   "text": "*April* (Fanny & Alexander; Andrea Argentieri) — 12./14.11. 20:30 · 13.11. 19:00 · 15.11. 17:00",
+   "when": "12.–15.11.",
+   "dates": [
+    {
+     "date": "2026-11-12",
+     "time": null
+    },
+    {
+     "date": "2026-11-13",
+     "time": null
+    },
+    {
+     "date": "2026-11-14",
+     "time": null
+    },
+    {
+     "date": "2026-11-15",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Moline",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/april/"
+    }
+   ],
+   "artist": "Fanny & Alexander"
+  },
+  {
+   "id": "saint-saens-samson-et-dalila-konzertant-r-abbado-2026-11-13",
+   "title": "Samson et Dalila konzertant",
+   "text": "Saint-Saëns *Samson et Dalila* konzertant (R. Abbado; Semenchuk, Kunde, Zelenkov); **Rabatt** 10 € für Studierende an der Kasse im Vorverkauf",
+   "when": "13.11. 20:00 · 15.11. 16:00",
+   "dates": [
+    {
+     "date": "2026-11-13",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Manzoni",
+   "city": "Bologna",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/calendario-eventi/"
+    }
+   ],
+   "artist": "Saint-Saëns"
+  },
+  {
+   "id": "ravenna-trilogia-mozart-1791-dantone-regie-chiar-2026-11-13",
+   "title": "Trilogia „Mozart 1791“",
+   "text": "**Ravenna Trilogia „Mozart 1791“** (Dantone, Regie Chiara Muti, Orchestra Giovanile Luigi Cherubini): **13.11. 20:00 *La clemenza di Tito* · 14.11. 20:00 *L'ultimo incanto* · 15.11. 17:00 Requiem · 16.11. 20:00 *Clemenza* · 17.11. 20:00 *L'ultimo incanto** — Requiem laut Presse (Carlino, 13.09.) ausverkauft",
+   "when": "13.–17.11.",
+   "dates": [
+    {
+     "date": "2026-11-13",
+     "time": null
+    },
+    {
+     "date": "2026-11-14",
+     "time": null
+    },
+    {
+     "date": "2026-11-15",
+     "time": null
+    },
+    {
+     "date": "2026-11-16",
+     "time": null
+    },
+    {
+     "date": "2026-11-17",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Alighieri",
+   "city": "Ravenna",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "partial",
+   "statusNote": "✅ / 🟡 Ausverkauf Requiem (nur Presse)",
+   "free": false,
+   "discount": false,
+   "soldOut": "full",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/rassegna/nacque-al-mondo-un-sole-ravenna-festival-2026/"
+    },
+    {
+     "label": "ravennafestival.org",
+     "url": "https://www.ravennafestival.org/"
+    }
+   ],
+   "artist": "Dantone / Chiara Muti"
+  },
+  {
+   "id": "smile-trio-weekend-swing-dance-society-kurse-wor-2026-11-13",
+   "title": "Smile Trio Weekend",
+   "text": "Smile Trio Weekend (Swing Dance Society): Kurse, Workshops, Talks mit Künstlern aus Maputo; Anmeldung ab 14.10., 12:00; nur Mitglieder (Eintritt 0 € + 5 € Mitgliedsbeitrag). Am 12.10. auf der [Eventseite](https://www.bolognaswing.it/it/eventi/smile-trio-weekend-202611132000) unverändert",
+   "when": "13.–15.11. (Uhrzeit nicht auf der Seite)",
+   "dates": [
+    {
+     "date": "2026-11-13",
+     "time": null
+    },
+    {
+     "date": "2026-11-14",
+     "time": null
+    },
+    {
+     "date": "2026-11-15",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Ort auf der Eventseite nicht genannt (Via N. Corazza 6 ist die Vereinsadresse)",
+   "city": "Bologna",
+   "sparte": "Swing/Workshop",
+   "cat": "workshop",
+   "region": "bologna",
+   "status": "check",
+   "statusNote": "🟡 nur Vereinsseite (nicht Tier 1/2)",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognaswing.it",
+     "url": "https://www.bolognaswing.it/it/eventi-swing-bologna/calendario"
+    }
+   ],
+   "artist": "Swing Dance Society"
+  },
+  {
+   "id": "giordano-fedora-renzetti-hugo-de-ana-2026-11-13",
+   "title": "Fedora",
+   "text": "Giordano *Fedora* (Renzetti / Hugo de Ana; Agresta/Costanzo; am 14./17./19.11. Stanisci/Rosario La Spina), neue Produktion, **Saisoneröffnung** (13.11. Black Tie); keine Preise auf der Seite",
+   "when": "13.11. 19:00 · 14./15.11. 15:30 · 17.–20.11. 19:00 · 22.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-11-13",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-14",
+     "time": "15:30"
+    },
+    {
+     "date": "2026-11-15",
+     "time": "15:30"
+    },
+    {
+     "date": "2026-11-17",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-18",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-19",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-20",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro La Fenice",
+   "city": "Venedig",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrolafenice.it",
+     "url": "https://www.teatrolafenice.it/en/event/fedora/"
+    }
+   ],
+   "artist": "Giordano"
+  },
+  {
+   "id": "katarina-gryvul-spomyn-60-min-ab-10-2026-11-14",
+   "title": "Spomyn",
+   "text": "Katarina Gryvul: *Spomyn*, 60 Min., ab 10 €",
+   "when": "14.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Cavallerizza",
+   "city": "Reggio Emilia",
+   "sparte": "Musik",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/katarina-gryvul-spomyn/"
+    }
+   ],
+   "artist": "Katarina Gryvul"
+  },
+  {
+   "id": "bologna-swing-dancers-14-11-harlem-1-harlem-77-2-2026-11-14",
+   "title": "Harlem #1 · Blues Get Together",
+   "text": "Bologna Swing Dancers: 14.11. *Harlem #1* („Harlem 77“), 21:30–2:30, Via Bellaria 7, San Lazzaro di Savena; 15 €, Mitglieder 0 €; nur Mitglieder/AICS-Karte, Anmeldung ab 14.10. 12:00 ([Eventseite](https://www.bolognaswing.it/it/eventi/harlem-1-202611142130), kein Jahr genannt) · 21.11. *Blues Get Together* — nur im Kalender, ohne Ort und Uhrzeit",
+   "when": "14.11. 21:30 · 21.11.",
+   "dates": [
+    {
+     "date": "2026-11-14",
+     "time": "21:30"
+    },
+    {
+     "date": "2026-11-21",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "s. Text",
+   "city": "Bologna",
+   "sparte": "Swing/Blues",
+   "cat": "social",
+   "region": "bologna",
+   "status": "check",
+   "statusNote": "🟡 nur Vereinsseite, Ort und Uhrzeit fehlen",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognaswing.it",
+     "url": "https://www.bolognaswing.it/it/eventi-swing-bologna/calendario"
+    }
+   ],
+   "artist": "Bologna Swing Dancers"
+  },
+  {
+   "id": "il-lago-dei-cigni-roma-city-ballet-company-2026-11-15",
+   "title": "Il lago dei cigni",
+   "text": "*Il lago dei cigni* (Roma City Ballet Company)",
+   "when": "15.11., 16:30 + 20:30",
+   "dates": [
+    {
+     "date": "2026-11-15",
+     "time": "16:30 + 20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocelebrazioni.it",
+     "url": "https://teatrocelebrazioni.it/stagione-26-27-il-lago-dei-cigni-15-novembre-2026/"
+    }
+   ],
+   "artist": "Roma City Ballet Company"
+  },
+  {
+   "id": "verdi-simon-boccanegra-james-conlon-alex-olle-la-2026-11-15",
+   "title": "Simon Boccanegra",
+   "text": "Verdi *Simon Boccanegra* (James Conlon / Àlex Ollé, La Fura dels Baus; George Petean, Jongmin Park, Carolina López Moreno, Luciano Ganci), neue Produktion, 15–130 €; Einführungsgespräch 12.11. 16:30. Termine jetzt im Maggio-Kalender November 2026",
+   "when": "15.11. 17:00 · 18.11. 20:00 · 22.11. 15:30 · 24.11. 20:00",
+   "dates": [
+    {
+     "date": "2026-11-15",
+     "time": "17:00"
+    },
+    {
+     "date": "2026-11-18",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "15:30"
+    },
+    {
+     "date": "2026-11-24",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro del Maggio",
+   "city": "Florenz",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "maggiofiorentino.com",
+     "url": "https://www.maggiofiorentino.com/calendario/2026/11"
+    },
+    {
+     "label": "Stückseite",
+     "url": "https://www.maggiofiorentino.com/events/simon-boccanegra"
+    },
+    {
+     "label": "Pressemitteilung",
+     "url": "https://www.maggiofiorentino.com/news/il-teatro-del-maggio-musicale-fiorentino-annuncia-la-stagione-2026-e-l88esima-edizione-del-festival"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "subversive-bodies-tanz-andrea-zardi-2026-11-17",
+   "title": "Subversive Bodies",
+   "text": "*Subversive Bodies*, Tanz, Andrea Zardi — Reihe *L'allegria*",
+   "when": "17.11., 21:00",
+   "dates": [
+    {
+     "date": "2026-11-17",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatri di Vita",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/objects/l-allegria"
+    }
+   ],
+   "artist": "Andrea Zardi"
+  },
+  {
+   "id": "catalogo-2026-11-19",
+   "title": "Catalogo",
+   "text": "*Catalogo* — **Marta Ciappina** mit Marco D'Agostin und Damien Modolo; Fragmente von Gribaudi, Pennini, Sotterraneo, Greco/Scholten (Reihe *Istantedanza*) — 19./20.11. 19:00 · 21./22.11. 18:00; ab 7,63 €",
+   "when": "19.–22.11.",
+   "dates": [
+    {
+     "date": "2026-11-19",
+     "time": null
+    },
+    {
+     "date": "2026-11-20",
+     "time": null
+    },
+    {
+     "date": "2026-11-21",
+     "time": null
+    },
+    {
+     "date": "2026-11-22",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Thierry Salmon",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/catalogo/"
+    }
+   ],
+   "artist": "Marta Ciappina"
+  },
+  {
+   "id": "bow-studio-2026-11-19",
+   "title": "BOW (studio)",
+   "text": "*BOW (studio)* — Gaetano Palermo / Michele Petrosino; choreografisches Projekt über die Verbeugung — 19./20.11. 17:30 · 21.11. 16:00; 45 Min., ab 8,18 €",
+   "when": "19.–21.11.",
+   "dates": [
+    {
+     "date": "2026-11-19",
+     "time": null
+    },
+    {
+     "date": "2026-11-20",
+     "time": null
+    },
+    {
+     "date": "2026-11-21",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Moline",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/bow-studio/"
+    }
+   ],
+   "artist": "Gaetano Palermo / Michele Petrosino"
+  },
+  {
+   "id": "nuria-guiu-sagarra-pov-tanz-lecture-performance--2026-11-19",
+   "title": "POV · Spiritual Boyfriends",
+   "text": "**Núria Guiu Sagarra**: *POV* (Tanz/Lecture-Performance, 19./20.11.) und *Spiritual Boyfriends* (italienische Erstaufführung, 21./22.11.); ab 8,18 €",
+   "when": "19./20.11. 21:00 · 21.11. 21:30 · 22.11. 20:00",
+   "dates": [
+    {
+     "date": "2026-11-19",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-11-20",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-11-21",
+     "time": "21:30"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "DAMSLab/Teatro",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "POV",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/pov/"
+    },
+    {
+     "label": "Spiritual Boyfriends",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/spiritual-boyfriends/"
+    }
+   ],
+   "artist": "Núria Guiu Sagarra"
+  },
+  {
+   "id": "oscar-antonio-latella-dalisi-mit-sonia-bergamasc-2026-11-19",
+   "title": "Oscar",
+   "text": "*Oscar* (Antonio Latella / Dalisi, mit Sonia Bergamasco), ab 11,99 €",
+   "when": "19./20.11. 20:30 · 21.11. 19:00 · 22.11. 16:00",
+   "dates": [
+    {
+     "date": "2026-11-19",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-20",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-21",
+     "time": "19:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Storchi",
+   "city": "Modena",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/oscar/"
+    }
+   ],
+   "artist": "Antonio Latella, mit Sonia Bergamasco"
+  },
+  {
+   "id": "stefano-massini-lo-zar-2026-11-20",
+   "title": "Lo zar",
+   "text": "Stefano Massini: *Lo zar* — 20./21.11. 21:00 · 22.11. 16:00; 21–33 €",
+   "when": "20.–22.11.",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "time": null
+    },
+    {
+     "date": "2026-11-21",
+     "time": null
+    },
+    {
+     "date": "2026-11-22",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/vladimir-putin-stefano-massini/"
+    }
+   ],
+   "artist": "Stefano Massini"
+  },
+  {
+   "id": "tcbo-sinfoniekonzert-ivor-bolton-haydn-die-schop-2026-11-20",
+   "title": "Die Schöpfung",
+   "text": "TCBO-Sinfoniekonzert: Ivor Bolton, Haydn *Die Schöpfung* (El-Khashem, Pati, Winckhler; Orchester und Chor des TCBO); 15–45 €, **Rabatt** Under 30 15–25 €, Studierende 10 € ab einer Woche vorher an der Kasse",
+   "when": "20.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/eventi/concerti-2026-sinfonica-bolton/"
+    }
+   ],
+   "artist": "TCBO Sinfonica, Ivor Bolton"
+  },
+  {
+   "id": "wagner-der-fliegende-hollander-neuproduktion-19--2026-11-20",
+   "title": "Der fliegende Holländer",
+   "text": "Wagner *Der fliegende Holländer*, Neuproduktion 19,50–65 €, Vorverkauf läuft; Einführung mit Oreste Bossini 19.11. 18:00, Sala del Ridotto, **gratis**",
+   "when": "20.11. 20:00 · 22.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/richard-wagner-der-fliegender-hollander-lolandese-volante/"
+    }
+   ],
+   "artist": "Wagner · Neuproduktion"
+  },
+  {
+   "id": "verdi-macbeth-ltg-giuseppe-finzi-regie-fabio-cer-2026-11-20",
+   "title": "Macbeth",
+   "text": "Verdi *Macbeth* (Ltg. Giuseppe Finzi, Regie Fabio Ceresa), Opernsaison 2026/27; 35–65 €, **Rabatt** Under 30 −30 %",
+   "when": "20.11. 20:00 · 22.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-11-20",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-22",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/macbeth-2/"
+    }
+   ],
+   "artist": "Verdi · Finzi / Ceresa"
+  },
+  {
+   "id": "a-beginning-16161d-2026-11-21",
+   "title": "A Beginning #16161D",
+   "text": "*A Beginning #16161D* — Aurora Bauzà / Pere Jou (Chor. Pere Jou), ab 8,18 €; dazu 22.11. 16:00 *Fosca* (Tanz für Kinder von 4–9 J., ab 4,91 €, [Seite](https://bologna.emiliaromagnateatro.com/spettacolo/fosca/))",
+   "when": "21.11., 20:00",
+   "dates": [
+    {
+     "date": "2026-11-21",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/a-beginning-16161d/"
+    }
+   ],
+   "artist": "Aurora Bauzà / Pere Jou"
+  },
+  {
+   "id": "storie-d-opera-21-11-gli-ultimi-giorni-di-puccin-2026-11-21",
+   "title": "Storie d'Opera",
+   "text": "*Storie d'Opera*: 21.11. *Gli ultimi giorni di Puccini. Turandot il sogno incompiuto* (Rossella Martina) · 5.12. *Don Giovanni. Mozart massone e illuminista* (Lidia Bramani); **gratis**",
+   "when": "21.11. · 5.12., je 17:00",
+   "dates": [
+    {
+     "date": "2026-11-21",
+     "time": "17:00"
+    },
+    {
+     "date": "2026-12-05",
+     "time": "17:00"
+    }
+   ],
+   "range": null,
+   "venue": "Ridotto, Teatro Comunale",
+   "city": "Ferrara",
+   "sparte": "Oper/Gespräch",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "Puccini",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/ultimi_giorni_puccini/"
+    },
+    {
+     "label": "Don Giovanni",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/don-giovanni-mozart-massone-e-illuminista/"
+    }
+   ],
+   "artist": "Puccini, Don Giovanni"
+  },
+  {
+   "id": "cesena-doppel-19-00-compagnia-mora-claudia-caste-2026-11-22",
+   "title": "l'infinito carnale · diluvio",
+   "text": "Cesena-Doppel: 19:00 Compagnia Mòra / Claudia Castellucci *l'infinito carnale* (Teatro Bonci) · 20:45 Nicola Galli *diluvio* (Teatro Comandini); keine Preise angegeben",
+   "when": "22.11., 19:00 · 20:45",
+   "dates": [
+    {
+     "date": "2026-11-22",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Bonci / Teatro Comandini",
+   "city": "Cesena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone (Castellucci)",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=28%2F09%2F2026&c_al=23%2F11%2F2026&c_l=&c_s=castellucci&c_cerca=cerca"
+    },
+    {
+     "label": "cartellone (Galli)",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=28%2F09%2F2026&c_al=23%2F11%2F2026&c_l=&c_s=diluvio&c_cerca=cerca"
+    }
+   ],
+   "artist": "Claudia Castellucci, Nicola Galli"
+  },
+  {
+   "id": "gioia-sinfonia-n-7-orchester-des-tcbo-ltg-christ-2026-11-22",
+   "title": "Gioia – Sinfonia n. 7",
+   "text": "*Gioia – Sinfonia n. 7* (Orchester des TCBO, Ltg. Christian Blex; Beethoven); 10 €, **Rabatt** Under 30 5 €",
+   "when": "22.11., 11:00",
+   "dates": [
+    {
+     "date": "2026-11-22",
+     "time": "11:00"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/eventi/concerti-2026-gioia-sinfonia-n-7/"
+    }
+   ],
+   "artist": "Orchester des TCBO"
+  },
+  {
+   "id": "pirandello-il-berretto-a-sonagli-silvio-orlando--2026-11-26",
+   "title": "Il berretto a sonagli",
+   "text": "Pirandello: *Il berretto a sonagli* (Silvio Orlando, Regie Andrea Baracco) — 26./27.11. 20:30 · 28.11. 19:00 · 29.11. 16:00; ab 8,18 €",
+   "when": "26.–29.11.",
+   "dates": [
+    {
+     "date": "2026-11-26",
+     "time": null
+    },
+    {
+     "date": "2026-11-27",
+     "time": null
+    },
+    {
+     "date": "2026-11-28",
+     "time": null
+    },
+    {
+     "date": "2026-11-29",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/il-berretto-a-sonagli/"
+    }
+   ],
+   "artist": "Pirandello"
+  },
+  {
+   "id": "body-sweats-for-elsa-2026-11-26",
+   "title": "Body Sweats (for Elsa)",
+   "text": "*Body Sweats (for Elsa)* — Giorgia Lolli, Reihe *Istantedanza*; ab 8,18 €",
+   "when": "26.11. 20:30 · 27.11. 18:00",
+   "dates": [
+    {
+     "date": "2026-11-26",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-27",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "Oratorio San Filippo Neri, Via Manzoni 5",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/objects/giorgia-lolli-body-sweats-for-elsa"
+    },
+    {
+     "label": "ERT",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/body-sweats-for-elsa/"
+    }
+   ],
+   "artist": "Giorgia Lolli"
+  },
+  {
+   "id": "morte-accidentale-di-un-anarchico-lodo-guenzi-re-2026-11-27",
+   "title": "Morte accidentale di un anarchico",
+   "text": "*Morte accidentale di un anarchico* (Lodo Guenzi, Regie Gallione) — 27./28.11. 21:00 · 29.11. 16:00",
+   "when": "27.–29.11.",
+   "dates": [
+    {
+     "date": "2026-11-27",
+     "time": null
+    },
+    {
+     "date": "2026-11-28",
+     "time": null
+    },
+    {
+     "date": "2026-11-29",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/morte-accidentale-anarchico-lodo-guenzi/"
+    }
+   ],
+   "artist": "Lodo Guenzi"
+  },
+  {
+   "id": "poetry-event-2026-11-27",
+   "title": "Poetry Event",
+   "text": "*Poetry Event* — **Carolyn Carlson**, Sara Simeoni, Paki Zennaro; **gratis**, Reservierung über [mast.org](http://mast.org) ab 11.11.",
+   "when": "27.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-27",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "MAST.Auditorium",
+   "city": "Bologna",
+   "sparte": "Tanz/Poesie",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": true,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/poetry-event/"
+    }
+   ],
+   "artist": "Carolyn Carlson"
+  },
+  {
+   "id": "replica-2026-11-27",
+   "title": "Replica",
+   "text": "*Replica* — Abbondanza/Bertoni mit Panzetti/Ticconi, Reihe *Istantedanza*; ab 13,08 €",
+   "when": "27.11. 20:30 · 28.11. 19:00",
+   "dates": [
+    {
+     "date": "2026-11-27",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-28",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Passioni",
+   "city": "Modena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/replica/"
+    }
+   ],
+   "artist": "Abbondanza/Bertoni"
+  },
+  {
+   "id": "verdi-macbeth-regie-fabio-ceresa-2026-11-27",
+   "title": "Macbeth",
+   "text": "Verdi *Macbeth* (Regie Fabio Ceresa); 9–63 €; Vortrag 27.11. 19:00 frei für Ticketinhaber; **Backstage-Führung 28.11. 10:00 und 11:30**, 8 €",
+   "when": "27.11. 20:00 · 29.11. 16:00",
+   "dates": [
+    {
+     "date": "2026-11-27",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Ferrara",
+   "sparte": "Oper/Führung",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunaleferrara.it",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/macbeth/"
+    }
+   ],
+   "artist": "Verdi"
+  },
+  {
+   "id": "le-palestriti-falling-into-dance-with-isadora-2026-11-28",
+   "title": "Le Palestriti / Falling into dance",
+   "text": "*Le Palestriti / Falling into dance, with Isadora* — **Simona Bertozzi \\| Nexus** — 28.11. 21:00 · 29.11. 18:00",
+   "when": "28./29.11.",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": null
+    },
+    {
+     "date": "2026-11-29",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Thierry Salmon",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/le-palestriti-i-falling-into-dance-with-isadora/"
+    }
+   ],
+   "artist": "Simona Bertozzi | Nexus"
+  },
+  {
+   "id": "you-elsewhere-2026-11-28",
+   "title": "you, elsewhere",
+   "text": "*you, elsewhere* — **Francesca Siracusa** (mit Erica Meucci, Miranda Secondari), Duett über Warten und Anlauf — 28.11. 18:00 · 29.11. 20:00; 30 Min., ab 8,18 €",
+   "when": "28./29.11.",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": null
+    },
+    {
+     "date": "2026-11-29",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Moline",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/you-elsewhere/"
+    }
+   ],
+   "artist": "Francesca Siracusa"
+  },
+  {
+   "id": "aterballetto-notte-morricone-marcos-morau-orches-2026-11-28",
+   "title": "Notte Morricone",
+   "text": "**Aterballetto *Notte Morricone*** (Marcos Morau), Orchester des TCBO, 90 Min.; Preise am 05.10. nicht auf der Seite (nur Vivaticket-Link), bisher geführt 20–50 €, Rabatt* Under 30 15–25 €",
+   "when": "28.11. 20:30 · 29.11. 16:00",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro EuropAuditorium",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/en/eventi/dance-2026-morricone-night/"
+    }
+   ],
+   "artist": "Aterballetto / Marcos Morau, Orchester des TCBO"
+  },
+  {
+   "id": "age-2026-11-28",
+   "title": "Age",
+   "text": "*Age* — Francesca Pennini / CollettivO CineticO; ab 11,99 €",
+   "when": "28.11., 20:30",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Storchi",
+   "city": "Modena",
+   "sparte": "Tanz/Performance",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/11411/"
+    }
+   ],
+   "artist": "Francesca Pennini / CollettivO CineticO"
+  },
+  {
+   "id": "salvatore-passantino-l-esecuzione-libretto-marco-2026-11-28",
+   "title": "L'esecuzione",
+   "text": "Salvatore Passantino: *L'esecuzione* (Libretto Marco Malvaldi), Neuproduktion; 9–30 €, Vorverkauf läuft",
+   "when": "28.11. 20:00 · 29.11. 15:30",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-11-29",
+     "time": "15:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/salvatore-passantino-lesecuzione/"
+    }
+   ],
+   "artist": "Salvatore Passantino"
+  },
+  {
+   "id": "dance-weekend-fonderia-18-00-offene-probe-pablo--2026-11-28",
+   "title": "Dance Weekend Fonderia",
+   "text": "Dance Weekend Fonderia: 18:00 **offene Probe** Pablo Girolami (mit Teilnehmenden des Kurses DANCE YOUR TIME) + Compagnia Ivona · 20:30 Andrea Costanzo Martini *Pas de Cheval*; keine Preise angegeben",
+   "when": "28.11., 18:00 + 20:30",
+   "dates": [
+    {
+     "date": "2026-11-28",
+     "time": "18:00 + 20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz/Offene Probe",
+   "cat": "probe",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/evento/pas-de-cheval/2026-11-28/"
+    }
+   ],
+   "artist": "Girolami, Ivona, Costanzo Martini"
+  },
+  {
+   "id": "giselle-2026-12-01",
+   "title": "Giselle",
+   "text": "*Giselle* — Ballett des Serbischen Nationaltheaters Novi Sad, Chor. Aleksandar Antonijević nach Coralli/Perrot; 10,50–35 €, **Rabatt** 19–30 J. 15–21 €; Vorverkauf ab 20.10. ([Stückseite](https://www.teatrocomunalemodena.it/spettacolo/serbian-national-theatre-giselle/))",
+   "when": "1.12., 20:30",
+   "dates": [
+    {
+     "date": "2026-12-01",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/danza/"
+    }
+   ],
+   "artist": "Ballett Novi Sad"
+  },
+  {
+   "id": "fonderia-1-12-mm-contemporary-made-in-italy-39-0-2026-12-01",
+   "title": "Made in Italy 39.0 · Beyond Time and Space",
+   "text": "Fonderia: 1.12. MM Contemporary *Made in Italy 39.0* / Agora Coaching Project (Bigonzetti, Tedesco) · 4.12. **offene Probe**, 5.12. Aufführung *Beyond Time and Space / La Réunion racconta Nikolais*; keine Preise angegeben",
+   "when": "1.12. 18:00 + 20:30 · 4.12. 18:00 · 5.12. 18:00",
+   "dates": [
+    {
+     "date": "2026-12-01",
+     "time": "18:00 + 20:30"
+    },
+    {
+     "date": "2026-12-04",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-12-05",
+     "time": "18:00"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz/Offene Probe",
+   "cat": "probe",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/fonderia-aterballetto-reggio-emilia/spettacoli-eventi/"
+    }
+   ],
+   "artist": "MM Contemporary u. a."
+  },
+  {
+   "id": "teatrino-giullare-pinter-la-stanza-60-min-ab-8-1-2026-12-01",
+   "title": "Pinter La stanza",
+   "text": "Teatrino Giullare: Pinter *La stanza*, 60 Min., ab 8,18 €",
+   "when": "1.12. 20:30 · 2.12. 19:00",
+   "dates": [
+    {
+     "date": "2026-12-01",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-12-02",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Moline",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/la-stanza/"
+    }
+   ],
+   "artist": "Teatrino Giullare"
+  },
+  {
+   "id": "teatro-dei-venti-abisso-e-potere-macbeth-in-form-2026-12-02",
+   "title": "Abisso e Potere – Macbeth in forma di Danza Tragica",
+   "text": "Teatro dei Venti: *Abisso e Potere – Macbeth in forma di Danza Tragica* (Stefano Tè), **Uraufführung** — 2.12. 20:30 · 3.12. 19:00 · 4.12. 20:30 · 5.12. 19:00 · 6.12. 18:00; ab 13,08 €",
+   "when": "2.–6.12.",
+   "dates": [
+    {
+     "date": "2026-12-02",
+     "time": null
+    },
+    {
+     "date": "2026-12-03",
+     "time": null
+    },
+    {
+     "date": "2026-12-04",
+     "time": null
+    },
+    {
+     "date": "2026-12-05",
+     "time": null
+    },
+    {
+     "date": "2026-12-06",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro delle Passioni",
+   "city": "Modena",
+   "sparte": "Tanztheater",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "modena.emiliaromagnateatro.com",
+     "url": "https://modena.emiliaromagnateatro.com/spettacolo/abisso-e-potere/"
+    }
+   ],
+   "artist": "Teatro dei Venti"
+  },
+  {
+   "id": "anna-prohaska-sopran-isabelle-faust-violine-kurt-2026-12-02",
+   "title": "Kurtág Kafka-Fragmente",
+   "text": "Anna Prohaska (Sopran) & Isabelle Faust (Violine): Kurtág *Kafka-Fragmente*; 18,50–35 €, **Rabatt** Unimore −50 %, Under 30 −30 %",
+   "when": "2.12., 20:30",
+   "dates": [
+    {
+     "date": "2026-12-02",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Valli",
+   "city": "Reggio Emilia",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "iteatri.re.it",
+     "url": "https://www.iteatri.re.it/spettacolo/anna-prohaska-soprano-isabelle-faust-violino/"
+    }
+   ],
+   "artist": "Anna Prohaska & Isabelle Faust"
+  },
+  {
+   "id": "balletto-dell-opera-di-tbilisi-la-bella-addormen-2026-12-02",
+   "title": "La bella addormentata",
+   "text": "Balletto dell'Opera di Tbilisi: *La bella addormentata* (Petipa, Fassung Fadeechev/Ananiashvili), Sagra Musicale Malatestiana; 3.12. Zusatztermin; kein Preis angegeben",
+   "when": "2./3.12., je 21:00",
+   "dates": [
+    {
+     "date": "2026-12-02",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-12-03",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Amintore Galli",
+   "city": "Rimini",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "cartellone.emiliaromagnacultura.it",
+     "url": "https://cartellone.emiliaromagnacultura.it/it/cerca-eventi/?c_t=evento&c_q=personalizzato&c_dal=12%2F10%2F2026&c_al=07%2F12%2F2026&c_l=&c_s=tbilisi&c_cerca=cerca"
+    }
+   ],
+   "artist": "Balletto dell'Opera di Tbilisi"
+  },
+  {
+   "id": "il-giorno-in-cui-mio-padre-mi-ha-insegnato-ad-an-2026-12-03",
+   "title": "Il giorno in cui mio padre…",
+   "text": "*Il giorno in cui mio padre mi ha insegnato ad andare in bicicletta* (Valerio Aprea) — 3./4.12. 19:00 · 5.12. 21:00 · 6.12. 18:00, Sala Thierry Salmon, ab 7,63 €",
+   "when": "3.–6.12.",
+   "dates": [
+    {
+     "date": "2026-12-03",
+     "time": null
+    },
+    {
+     "date": "2026-12-04",
+     "time": null
+    },
+    {
+     "date": "2026-12-05",
+     "time": null
+    },
+    {
+     "date": "2026-12-06",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/"
+    }
+   ],
+   "artist": "Valerio Aprea"
+  },
+  {
+   "id": "scala-saisoneroffnung-verdi-otello-myung-whun-ch-2026-12-04",
+   "title": "Otello",
+   "text": "**Scala-Saisoneröffnung: Verdi *Otello*** (Myung-Whun Chung / Damiano Michieletto; Brian Jagde, Luca Salsi, Eleonora Buratto) — Stand 19.10.: 7., 10. und 13.12. ausverkauft, 16./19.12. letzte Plätze; UNDER30 Preview: Verkauf ab 4.11. 13:00 nur über *[*teatroallascala.org*](http://teatroallascala.org)*, Rabatt**, Preis und Altersgrenze nicht auf der Seite",
+   "when": "4.12. 18:00 (UNDER30 Preview) · 7.12. 18:00 (Premiere) · 10./13./16./19./22.12. 20:00",
+   "dates": [
+    {
+     "date": "2026-12-04",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-12-07",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-12-13",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-12-16",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-12-19",
+     "time": "20:00"
+    },
+    {
+     "date": "2026-12-22",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro alla Scala",
+   "city": "Mailand",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "trip",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": "few",
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroallascala.org",
+     "url": "https://www.teatroallascala.org/en/season/2026-2027/opera/otello.html"
+    },
+    {
+     "label": "Preview",
+     "url": "https://www.teatroallascala.org/en/season/2026-2027/opera/otello-under30-preview.html"
+    }
+   ],
+   "artist": "Scala-Saisoneröffnung, Chung / Michieletto"
+  },
+  {
+   "id": "les-farfadais-ame-viaggio-nell-inferno-di-dante--2026-12-05",
+   "title": "ÂME",
+   "text": "Les Farfadais: *ÂME – Viaggio nell'Inferno di Dante* (Akrobatik); laut [Seite](https://teatrocelebrazioni.it/stagione-26-27-les-farfadais-5-6-dicembre-2026/) werktags 21:00, feiertags 17:30 (Zuordnung nicht genannt); keine Preise",
+   "when": "5./6.12.",
+   "dates": [
+    {
+     "date": "2026-12-05",
+     "time": null
+    },
+    {
+     "date": "2026-12-06",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Artistik",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocelebrazioni.it",
+     "url": "https://teatrocelebrazioni.it/la-danza/"
+    }
+   ],
+   "artist": "Les Farfadais"
+  },
+  {
+   "id": "hopper-hours-2-6-12-und-harlem-2-12-12-bologna-s-2026-12-06",
+   "title": "Hopper Hours #2 · Harlem #2",
+   "text": "Hopper Hours #2 (6.12.) und *Harlem #2* (12.12.) (Bologna Swing Dancers) — nur im Kalender, ohne Ort, Uhrzeit und Preis",
+   "when": "6.12. · 12.12.",
+   "dates": [
+    {
+     "date": "2026-12-06",
+     "time": null
+    },
+    {
+     "date": "2026-12-12",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Ort nicht belegt",
+   "city": "Bologna",
+   "sparte": "Swing",
+   "cat": "social",
+   "region": "bologna",
+   "status": "check",
+   "statusNote": "🟡 nur Vereinsseite, Ort und Uhrzeit fehlen",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognaswing.it",
+     "url": "https://www.bolognaswing.it/it/eventi-swing-bologna/calendario"
+    }
+   ],
+   "artist": "Bologna Swing Dancers"
+  },
+  {
+   "id": "sei-personaggi-in-cerca-d-autore-2026-12-09",
+   "title": "Sei personaggi in cerca d'autore",
+   "text": "*Sei personaggi in cerca d'autore*",
+   "when": "9./10.12., 21:00",
+   "dates": [
+    {
+     "date": "2026-12-09",
+     "time": "21:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/"
+    }
+   ],
+   "artist": ""
+  },
+  {
+   "id": "frantics-dance-company-ordinary-people-2026-12-09",
+   "title": "Ordinary People",
+   "text": "Frantics Dance Company: *Ordinary People* — 9.12. **offene Probe**, 10.12. Vorstellung; keine Preise geprüft",
+   "when": "9.12. 18:00 · 10.12. 20:30",
+   "dates": [
+    {
+     "date": "2026-12-09",
+     "time": "18:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Fonderia Aterballetto",
+   "city": "Reggio Emilia",
+   "sparte": "Tanz/Offene Probe",
+   "cat": "probe",
+   "region": "er",
+   "status": "check",
+   "statusNote": "🟡 nur Veranstalterseite Aterballetto",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "fndaterballetto.it",
+     "url": "https://www.fndaterballetto.it/evento/ordinary-people/2026-12-09/"
+    }
+   ],
+   "artist": "Frantics Dance Company"
+  },
+  {
+   "id": "tcbo-sinfoniekonzert-marco-angius-corrado-und-hi-2026-12-11",
+   "title": "Angius · Grazia",
+   "text": "TCBO-Sinfoniekonzert: Marco Angius, Corrado und Hindemith, Paolo Grazia (Oboe)",
+   "when": "11.12., 20:30",
+   "dates": [
+    {
+     "date": "2026-12-11",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/sinfonica-2026/"
+    }
+   ],
+   "artist": "TCBO Sinfonica: Corrado, Hindemith"
+  },
+  {
+   "id": "l-anno-che-verra-2026-12-11",
+   "title": "L'anno che verrà",
+   "text": "*L'anno che verrà* — „opera pop“ nach Lucio Dalla, **prima nazionale**; Choreografie **Michele Merola** mit der MM Contemporary Dance Company, Regie Manuel Renga, Solist Pierdavide Carone; 15–63 €, **Rabatt** Under 30 17–38 €, Under 20 9 €. 11.12. 19:00 Einführung (mit Ticket); **Backstage-Führung** 12.12. 10:00 und 11:30, 8 €",
+   "when": "11./12.12., je 20:30",
+   "dates": [
+    {
+     "date": "2026-12-11",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-12-12",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Ferrara",
+   "sparte": "Musiktheater/Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": true,
+   "sources": [
+    {
+     "label": "teatrocomunaleferrara.it",
+     "url": "https://www.teatrocomunaleferrara.it/spettacolo/lanno-che-verra/"
+    }
+   ],
+   "artist": "MM Contemporary / Michele Merola"
+  },
+  {
+   "id": "cenerentola-2026-12-11",
+   "title": "Cenerentola",
+   "text": "*Cenerentola* — Compagnia della Fortezza, Regie Armando Punzo; ab 8,18 €",
+   "when": "11.12. 20:30 · 12.12. 19:00",
+   "dates": [
+    {
+     "date": "2026-12-11",
+     "time": "20:30"
+    },
+    {
+     "date": "2026-12-12",
+     "time": "19:00"
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/cenerentola/"
+    }
+   ],
+   "artist": "Compagnia della Fortezza / Punzo"
+  },
+  {
+   "id": "la-bella-addormentata-balletto-del-sud-chor-fred-2026-12-16",
+   "title": "La bella addormentata",
+   "text": "*La bella addormentata* (Balletto del Sud, Chor. Fredy Franzutti), 23–39 €",
+   "when": "16.12., 21:00",
+   "dates": [
+    {
+     "date": "2026-12-16",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/la-bella-addormentata-il-balletto-del-sud/"
+    }
+   ],
+   "artist": "Balletto del Sud"
+  },
+  {
+   "id": "trilogia-della-brama-compagnia-artemis-danza-2026-12-16",
+   "title": "Trilogia della brama",
+   "text": "*Trilogia della brama* (Compagnia Artemis Danza) — Saison Modena Danza; **Rabatt** 19–30 J.",
+   "when": "16.12., 20:30",
+   "dates": [
+    {
+     "date": "2026-12-16",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/danza/"
+    }
+   ],
+   "artist": "Artemis Danza"
+  },
+  {
+   "id": "taci-anzi-parla-ateliersi-2026-12-16",
+   "title": "Taci, anzi parla",
+   "text": "*Taci, anzi parla* (Ateliersi) — 16.12. 21:00 · 17./18.12. 19:00 · 19.12. 21:00 · 20.12. 18:00, Sala Thierry Salmon",
+   "when": "16.–20.12.",
+   "dates": [
+    {
+     "date": "2026-12-16",
+     "time": null
+    },
+    {
+     "date": "2026-12-17",
+     "time": null
+    },
+    {
+     "date": "2026-12-18",
+     "time": null
+    },
+    {
+     "date": "2026-12-19",
+     "time": null
+    },
+    {
+     "date": "2026-12-20",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/"
+    }
+   ],
+   "artist": "Ateliersi"
+  },
+  {
+   "id": "faust-romeo-castellucci-2026-12-18",
+   "title": "Faust",
+   "text": "*Faust* (Romeo Castellucci) — 18.12. 20:30 · 19.12. 19:00, Sala Leo de Berardinis",
+   "when": "18./19.12.",
+   "dates": [
+    {
+     "date": "2026-12-18",
+     "time": null
+    },
+    {
+     "date": "2026-12-19",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/"
+    }
+   ],
+   "artist": "Romeo Castellucci"
+  },
+  {
+   "id": "filarmonica-del-teatro-comunale-di-modena-ltg-ho-2026-12-19",
+   "title": "Pishkar · Sophia Liu",
+   "text": "Filarmonica del Teatro Comunale di Modena, Ltg. Hossein Pishkar, Klavier Sophia Liu",
+   "when": "19.12., 20:30",
+   "dates": [
+    {
+     "date": "2026-12-19",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/concerti/"
+    }
+   ],
+   "artist": "Filarmonica Modena"
+  },
+  {
+   "id": "cenerentola-on-ice-the-imperial-ice-stars-chor-t-2026-12-23",
+   "title": "Cenerentola on Ice",
+   "text": "*Cenerentola on Ice* (The Imperial Ice Stars, Chor. Tony Mercer) — 23.12. 21:00 · 26. und 27.12. je 16:00 und 20:00",
+   "when": "23./26./27.12.",
+   "dates": [
+    {
+     "date": "2026-12-23",
+     "time": null
+    },
+    {
+     "date": "2026-12-26",
+     "time": null
+    },
+    {
+     "date": "2026-12-27",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Eistanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocelebrazioni.it",
+     "url": "https://teatrocelebrazioni.it/stagione-26-27-cenerentola-on-ice-23-26-e-27-dicembre-2026/"
+    }
+   ],
+   "artist": "The Imperial Ice Stars"
+  },
+  {
+   "id": "lo-schiaccianoci-international-classical-ballet--2026-12-27",
+   "title": "Lo schiaccianoci",
+   "text": "*Lo schiaccianoci* (International Classical Ballet), 29,50–49 €",
+   "when": "27.12., 16:00 + 21:00",
+   "dates": [
+    {
+     "date": "2026-12-27",
+     "time": "16:00 + 21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/lo-schiaccianoci-teatro-duse-2026/"
+    }
+   ],
+   "artist": "International Classical Ballet"
+  },
+  {
+   "id": "parma-danza-corpo-di-ballo-und-orchester-der-fon-2026-12-27",
+   "title": "Il lago dei cigni",
+   "text": "Parma Danza: Corpo di Ballo und Orchester der Fondazione Arena di Verona, *Il lago dei cigni* (Chor. Polyakov); ab 10 €",
+   "when": "27.12. 15:30 · 29.12. 20:00",
+   "dates": [
+    {
+     "date": "2026-12-27",
+     "time": "15:30"
+    },
+    {
+     "date": "2026-12-29",
+     "time": "20:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Regio",
+   "city": "Parma",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregioparma.it",
+     "url": "https://teatroregioparma.it/spettacolo/orchestra-e-corpo-di-ballo-della-fondazione-arena-di-verona/"
+    }
+   ],
+   "artist": "Ballett der Arena di Verona"
+  },
+  {
+   "id": "titize-a-venetian-dream-compagnia-finzi-pasca-2026-12-29",
+   "title": "Titizé. A Venetian Dream",
+   "text": "*Titizé. A Venetian Dream* (Compagnia Finzi Pasca) — 29.12. 20:30 · 30.12. 17:30 und 21:30 · 31.12. 21:30",
+   "when": "29.–31.12.",
+   "dates": [
+    {
+     "date": "2026-12-29",
+     "time": null
+    },
+    {
+     "date": "2026-12-30",
+     "time": null
+    },
+    {
+     "date": "2026-12-31",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Arena del Sole, Sala Leo de Berardinis",
+   "city": "Bologna",
+   "sparte": "Theater/Akrobatik",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/titize/"
+    }
+   ],
+   "artist": "Compagnia Finzi Pasca"
+  },
+  {
+   "id": "tcbo-silvesterkonzert-markus-stenz-panfili-und-b-2026-12-31",
+   "title": "Silvesterkonzert",
+   "text": "TCBO-Silvesterkonzert: Markus Stenz, Panfili und Beethoven",
+   "when": "31.12., 16:00",
+   "dates": [
+    {
+     "date": "2026-12-31",
+     "time": "16:00"
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/sinfonica-2026/"
+    }
+   ],
+   "artist": "TCBO, Markus Stenz"
+  },
+  {
+   "id": "il-lago-dei-cigni-international-classical-ballet-2027-01-19",
+   "title": "Il lago dei cigni",
+   "text": "*Il lago dei cigni* (International Classical Ballet), 29,50–49 €",
+   "when": "19.1., 21:00",
+   "dates": [
+    {
+     "date": "2027-01-19",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/il-lago-dei-cigni-balletto-classico-2027/"
+    }
+   ],
+   "artist": "International Classical Ballet"
+  },
+  {
+   "id": "bellini-la-straniera-2027-01-22",
+   "title": "La straniera",
+   "text": "Bellini *La straniera* — **Auftakt der Opernsaison 2027** (noch im Auditorium Manzoni)",
+   "when": "22./24.1.2027",
+   "dates": [
+    {
+     "date": "2027-01-22",
+     "time": null
+    },
+    {
+     "date": "2027-01-24",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Auditorium Manzoni",
+   "city": "Bologna",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "stagione2027.tcbo.it",
+     "url": "https://stagione2027.tcbo.it/"
+    }
+   ],
+   "artist": "Bellini"
+  },
+  {
+   "id": "evgeny-kissin-beethoven-recital-op-2-1-op-27-2-d-2027-01-22",
+   "title": "Beethoven-Recital",
+   "text": "Evgeny Kissin, Beethoven-Recital (op. 2/1, op. 27/2, Diabelli-Variationen); 16,50–55 €, **Rabatt** 19–30 J.; Vorverkauf ab 13.10.",
+   "when": "22.1., 20:30",
+   "dates": [
+    {
+     "date": "2027-01-22",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Konzert",
+   "cat": "music",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/evgeny-kissin/"
+    }
+   ],
+   "artist": "Evgeny Kissin"
+  },
+  {
+   "id": "nessuno-accorsi-finzi-pasca-2027-01-22",
+   "title": "Nessuno",
+   "text": "*Nessuno* (Accorsi / Finzi Pasca) — 22./23.1. 21:00 · 24.1. 16:00",
+   "when": "22.–24.1.",
+   "dates": [
+    {
+     "date": "2027-01-22",
+     "time": null
+    },
+    {
+     "date": "2027-01-23",
+     "time": null
+    },
+    {
+     "date": "2027-01-24",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/ulisse-stefano-accorsi-finzi-pasca/"
+    }
+   ],
+   "artist": "Stefano Accorsi / Finzi Pasca"
+  },
+  {
+   "id": "il-lago-dei-cigni-tam-ballet-2027-01-24",
+   "title": "Il lago dei cigni",
+   "text": "*Il lago dei cigni* (TAM Ballet) — Saison Modena Danza; **Rabatt** 19–30 J.",
+   "when": "24.1., 17:30",
+   "dates": [
+    {
+     "date": "2027-01-24",
+     "time": "17:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Ballett",
+   "cat": "ballet",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/danza/"
+    }
+   ],
+   "artist": "TAM Ballet"
+  },
+  {
+   "id": "ballet-junior-de-geneve-2027-02-04",
+   "title": "Ballet Junior de Genève",
+   "text": "**Ballet Junior de Genève** — Saison Modena Danza; **Rabatt** 19–30 J.",
+   "when": "4.2., 20:30",
+   "dates": [
+    {
+     "date": "2027-02-04",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/danza/"
+    }
+   ],
+   "artist": ""
+  },
+  {
+   "id": "carrozzeria-orfeo-misurare-il-salto-delle-rane-2027-02-08",
+   "title": "Misurare il salto delle rane",
+   "text": "Carrozzeria Orfeo: *Misurare il salto delle rane*",
+   "when": "8.2., 21:00",
+   "dates": [
+    {
+     "date": "2027-02-08",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Theater",
+   "cat": "theatre",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/misurare-il-salto-delle-rane-carrozzeria-orfeo/"
+    }
+   ],
+   "artist": "Carrozzeria Orfeo"
+  },
+  {
+   "id": "tango-buenos-aires-marcos-ayala-2027-02-09",
+   "title": "Tango Buenos Aires",
+   "text": "*Tango Buenos Aires* (Marcos Ayala)",
+   "when": "9.2., 21:00",
+   "dates": [
+    {
+     "date": "2027-02-09",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/tango-buenos-aires-marcos-ayala-teatro-duse/"
+    }
+   ],
+   "artist": "Marcos Ayala"
+  },
+  {
+   "id": "ballet-preljocaj-soulevement-2027-02-14",
+   "title": "Soulèvement",
+   "text": "**Ballet Preljocaj: *Soulèvement*** — Saison Modena Danza; Rabatt* 19–30 J.",
+   "when": "14.2., 20:30",
+   "dates": [
+    {
+     "date": "2027-02-14",
+     "time": "20:30"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale Pavarotti-Freni",
+   "city": "Modena",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/danza/"
+    }
+   ],
+   "artist": "Ballet Preljocaj"
+  },
+  {
+   "id": "wiedereroffnung-teatro-comunale-am-largo-respigh-2027-02-14",
+   "title": "Wiedereröffnung Teatro Comunale",
+   "text": "**Wiedereröffnung Teatro Comunale am Largo Respighi**: Festkonzert in der Sala Bibiena unter Daniele Gatti; anschließend ein Monat täglicher Veranstaltungen (14.2.–14.3.)",
+   "when": "14.2.2027",
+   "dates": [
+    {
+     "date": "2027-02-14",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Bologna",
+   "sparte": "Großereignis",
+   "cat": "festival",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "stagione2027.tcbo.it",
+     "url": "https://stagione2027.tcbo.it/"
+    },
+    {
+     "label": "culturabologna.it",
+     "url": "https://www.culturabologna.it/agenda-eventi/rassegne-festival-stagioni/teatro-comunale-di-bologna-opera-2027"
+    }
+   ],
+   "artist": "Festkonzert Daniele Gatti"
+  },
+  {
+   "id": "monteverdi-il-ritorno-di-ulisse-in-patria-regie--2027-03-02",
+   "title": "Il ritorno di Ulisse in patria",
+   "text": "Monteverdi *Il ritorno di Ulisse in patria* (Regie Daniele Abbado, Ltg. Fabio Biondi) — erste Oper in der wiedereröffneten Sala Bibiena, erstmals an diesem Haus",
+   "when": "Ausblick 2./4./6./7.3.2027",
+   "dates": [
+    {
+     "date": "2027-03-02",
+     "time": null
+    },
+    {
+     "date": "2027-03-04",
+     "time": null
+    },
+    {
+     "date": "2027-03-06",
+     "time": null
+    },
+    {
+     "date": "2027-03-07",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Comunale",
+   "city": "Bologna",
+   "sparte": "Oper",
+   "cat": "opera",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "stagione2027.tcbo.it",
+     "url": "https://stagione2027.tcbo.it/"
+    }
+   ],
+   "artist": "Monteverdi"
+  },
+  {
+   "id": "parsons-dance-fearless-tournee-zum-40-jahrigen-2-2027-03-09",
+   "title": "Fearless",
+   "text": "Parsons Dance *Fearless* (Tournee zum 40-Jährigen), 29,50–49 €",
+   "when": "Ausblick 9.3.2027, 21:00",
+   "dates": [
+    {
+     "date": "2027-03-09",
+     "time": "21:00"
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Duse",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/parsons-dance-company-tour-40-anniversario/"
+    }
+   ],
+   "artist": "Parsons Dance"
+  },
+  {
+   "id": "kataklo-athletic-dance-theatre-seasons-oltre-le--2027-03-14",
+   "title": "Seasons – Oltre le Stagioni",
+   "text": "Kataklò Athletic Dance Theatre: *Seasons – Oltre le Stagioni*, 17:30",
+   "when": "Ausblick 14.3.2027",
+   "dates": [
+    {
+     "date": "2027-03-14",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocelebrazioni.it",
+     "url": "https://teatrocelebrazioni.it/la-danza/"
+    }
+   ],
+   "artist": "Kataklò Athletic Dance Theatre"
+  },
+  {
+   "id": "ausstellung-da-gaudi-a-picasso-sammlung-carmen-t-2027-03-29",
+   "title": "Da Gaudí a Picasso",
+   "text": "Ausstellung *Da Gaudí a Picasso* (Sammlung Carmen Thyssen), bis 29.3.2027, täglich 10–20",
+   "when": "laufend bis 29.3.2027",
+   "dates": [],
+   "range": {
+    "start": null,
+    "end": "2027-03-29"
+   },
+   "venue": "Palazzo Albergati",
+   "city": "Bologna",
+   "sparte": "Kunst",
+   "cat": "art",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "bolognawelcome.com",
+     "url": "https://www.bolognawelcome.com/it/eventi/mostre-esposizioni/da-gaudi-a-picasso-capolavori-dalla-collezione-carmen-thyssen"
+    }
+   ],
+   "artist": "Ausstellung, Sammlung Carmen Thyssen"
+  },
+  {
+   "id": "focus-prisma-di-luce-rbr-dance-company-17-30-2027-04-04",
+   "title": "FOCUS – Prisma di Luce",
+   "text": "*FOCUS – Prisma di Luce* (RBR Dance Company), 17:30 — Tanzabo Teatro Celebrazioni",
+   "when": "Ausblick 4.4.2027",
+   "dates": [
+    {
+     "date": "2027-04-04",
+     "time": null
+    }
+   ],
+   "range": null,
+   "venue": "Teatro Celebrazioni",
+   "city": "Bologna",
+   "sparte": "Tanz",
+   "cat": "dance",
+   "region": "bologna",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": false,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatrocelebrazioni.it",
+     "url": "https://teatrocelebrazioni.it/la-danza/"
+    }
+   ],
+   "artist": "RBR Dance Company"
+  },
+  {
+   "id": "fuhrungen-teatro-regio-parma-disa-9-3012-30-und--x",
+   "title": "Führungen Teatro Regio",
+   "text": "Führungen Teatro Regio Parma: Di–Sa 9:30–12:30 und 14:30–17:00, So 10–16 Uhr; 12 €, **Rabatt** Under 30 8 €; bei Proben/Vorstellungen sind Räume gesperrt, keine konkreten Oktober-/Novemberdaten",
+   "when": "laufend",
+   "dates": [],
+   "range": null,
+   "venue": "Teatro Regio",
+   "city": "Parma",
+   "sparte": "Hausführung",
+   "cat": "tour",
+   "region": "er",
+   "status": "ok",
+   "statusNote": "✅",
+   "free": false,
+   "discount": true,
+   "soldOut": null,
+   "premiere": false,
+   "sources": [
+    {
+     "label": "teatroregioparma.it",
+     "url": "https://teatroregioparma.it/vivi-il-regio/visite-guidate/"
+    }
+   ],
+   "artist": "Di–Sa 9:30–12:30 und 14:30–17, So 10–16"
+  }
+ ]
+}

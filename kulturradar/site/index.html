@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="repo" content="OWNER/kulturradar">
+<meta name="description" content="Geprüfte Tanz-, Opern- und Theatertermine in Bologna, Emilia-Romagna und für Ausflüge nach Florenz, Mailand, Turin und Venedig.">
+<title>Kulturradar Bologna</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gloock&family=Schibsted+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a theatre programme as a working tool. Summary band (picks + deadlines) above a sticky control bar, then one calendar surface (agenda / week / month). */
+:root{
+  --bg:#f5f4f1; --surface:#ffffff; --sunk:#ecebe6; --line:#dcdad3; --fg:#1d1b19; --muted:#6b675f;
+  --accent:#8f1d2c; --accent-soft:#f3e3e4; --ochre:#b9822f;
+  --ok:#2f7d4f; --warn:#a86a00; --warn-soft:#fbf0dc; --bad:#b3261e;
+  --c-dance:#c2185b; --c-ballet:#6d4bc4; --c-pro:#d26a00; --c-opera:#a3202f; --c-theatre:#2b6f99; --c-music:#23866a; --c-social:#8a6a35; --c-more:#6b7280;
+  --f-display:"Gloock", "Iowan Old Style", Georgia, serif;
+  --f-body:"Schibsted Grotesk", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --r:10px;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141312; --surface:#1d1c1a; --sunk:#262422; --line:#34312d; --fg:#ece8e2; --muted:#a19b91;
+  --accent:#e0707f; --accent-soft:#3a2125; --ochre:#d9a45a;
+  --ok:#6cc08e; --warn:#e2a64a; --warn-soft:#3a2d17; --bad:#f2867d;
+  --c-dance:#ee6a9b; --c-ballet:#a58cf0; --c-pro:#f0954a; --c-opera:#e46b77; --c-theatre:#69aed8; --c-music:#5cc2a2; --c-social:#c9a46a; --c-more:#9aa1ad;
+  color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141312; --surface:#1d1c1a; --sunk:#262422; --line:#34312d; --fg:#ece8e2; --muted:#a19b91;
+  --accent:#e0707f; --accent-soft:#3a2125; --ochre:#d9a45a;
+  --ok:#6cc08e; --warn:#e2a64a; --warn-soft:#3a2d17; --bad:#f2867d;
+  --c-dance:#ee6a9b; --c-ballet:#a58cf0; --c-pro:#f0954a; --c-opera:#e46b77; --c-theatre:#69aed8; --c-music:#5cc2a2; --c-social:#c9a46a; --c-more:#9aa1ad;
+  color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.45}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:var(--bg)}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+
+/* header */
+header.top{padding-block:22px 6px}
+.brand{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 16px;justify-content:space-between}
+.brand h1{font-family:var(--f-display);font-weight:400;font-size:clamp(30px,5vw,44px);line-height:1;margin:0;letter-spacing:-.01em}
+.brand h1 em{font-style:normal;color:var(--accent)}
+.stand{color:var(--muted);font-size:13px;display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.stand a{color:var(--accent);text-decoration:none;font-weight:600}
+.stand a:hover{text-decoration:underline}
+
+/* summary band */
+.band{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:18px;padding-block:14px 18px}
+@media (max-width:860px){.band{grid-template-columns:minmax(0,1fr)}}
+.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600;margin:0 0 8px}
+.picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:620px){.picks{grid-template-columns:minmax(0,1fr)}}
+.pick{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;text-align:left;display:flex;flex-direction:column;gap:6px;min-width:0}
+.pick:hover{border-color:var(--accent)}
+.pick .when{font-family:var(--f-mono);font-size:12px;color:var(--accent);font-weight:500}
+.pick h3{font-family:var(--f-display);font-weight:400;font-size:20px;line-height:1.1;margin:0;text-wrap:balance}
+.pick .art{font-size:13px;color:var(--muted)}
+.pick .why{font-size:13px;margin-top:auto}
+.deadlines{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:6px 0;max-height:330px;overflow:auto}
+.dl{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;padding:8px 14px;border-bottom:1px solid var(--line);align-items:start}
+.dl:last-child{border-bottom:0}
+.dl .cd{font-family:var(--f-mono);font-size:12px;line-height:1.25;font-weight:500}
+.dl .cd.hot{color:var(--accent)}
+.dl .cd small{display:block;color:var(--muted);font-weight:400}
+.dl .t{font-size:13.5px;min-width:0}
+.dl .t b{font-weight:600}
+.dl details summary{cursor:pointer;color:var(--muted);font-size:12px;list-style:none;margin-top:2px}
+.dl details summary::-webkit-details-marker{display:none}
+.dl details[open] summary{margin-bottom:4px}
+.dl .full{font-size:12.5px;color:var(--muted)}
+
+/* controls */
+.controls{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line);padding-block:10px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row + .row{margin-top:8px}
+.seg{display:inline-flex;background:var(--sunk);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;padding:6px 14px;border-radius:999px;font-weight:600;font-size:13.5px;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--fg);box-shadow:0 1px 2px rgb(0 0 0 / .12)}
+.search{flex:1 1 180px;min-width:0;max-width:320px;margin-left:auto}
+.search input{width:100%;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 14px;font:inherit;font-size:14px;color:var(--fg)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;flex:1 1 auto;min-width:0}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:0 0 auto;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--cc,var(--muted))}
+.chip .n{font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.chip[aria-pressed="false"]{opacity:.45}
+.chip.tog[aria-pressed="false"]{opacity:1;color:var(--muted)}
+.chip.tog[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.chip.tog[aria-pressed="true"] .n{color:inherit;opacity:.7}
+.sep{width:1px;height:22px;background:var(--line);flex:0 0 auto}
+
+/* category colours */
+[data-cat="dance"]{--cc:var(--c-dance)} [data-cat="ballet"]{--cc:var(--c-ballet)} [data-cat="workshop"],[data-cat="probe"]{--cc:var(--c-pro)}
+[data-cat="opera"]{--cc:var(--c-opera)} [data-cat="theatre"]{--cc:var(--c-theatre)} [data-cat="music"]{--cc:var(--c-music)}
+[data-cat="social"]{--cc:var(--c-social)} [data-cat="tour"],[data-cat="festival"],[data-cat="art"],[data-cat="other"]{--cc:var(--c-more)}
+
+/* badges */
+.badges{display:flex;flex-wrap:wrap;gap:4px}
+.b{font-size:11px;font-weight:600;border-radius:4px;padding:1px 6px;letter-spacing:.02em;white-space:nowrap}
+.b.free{background:color-mix(in srgb,var(--ok) 16%,transparent);color:var(--ok)}
+.b.disc{background:color-mix(in srgb,var(--ochre) 18%,transparent);color:var(--ochre)}
+.b.prem{background:var(--accent-soft);color:var(--accent)}
+.b.sold{background:var(--fg);color:var(--bg)}
+.b.few{border:1px solid var(--fg)}
+.b.check{background:var(--warn-soft);color:var(--warn)}
+.b.cancel{background:var(--bad);color:#fff}
+.b.trip{border:1px solid var(--line);color:var(--muted)}
+
+/* main */
+main{padding-block:16px 40px;min-height:50vh}
+.ongoing{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px;margin-bottom:14px;scrollbar-width:thin}
+.ong{flex:0 0 auto;border:1px dashed var(--line);border-radius:8px;padding:6px 10px;font-size:13px;background:transparent;text-align:left;max-width:280px}
+.ong b{font-weight:600}
+.ong span{color:var(--muted)}
+
+/* agenda */
+.day{display:grid;grid-template-columns:96px minmax(0,1fr);gap:0 18px;padding-block:12px;border-top:1px solid var(--line)}
+@media (max-width:620px){.day{grid-template-columns:minmax(0,1fr)}}
+.dh{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--ctrl-h,96px) + 8px);align-self:start}
+@media (max-width:620px){.dh{position:static;display:flex;gap:8px;align-items:baseline;margin-bottom:6px}}
+.dh .dnum{font-family:var(--f-display);font-size:34px;line-height:1}
+.dh .dname{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600}
+.dh.today .dnum,.dh.today .dname{color:var(--accent)}
+.items{display:flex;flex-direction:column;gap:6px;min-width:0}
+.it{display:grid;grid-template-columns:52px 4px minmax(0,1fr) auto;gap:0 12px;align-items:start;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+.it:hover{border-color:var(--cc)}
+.it .tm{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:2px;font-variant-numeric:tabular-nums}
+.it .bar{width:4px;align-self:stretch;border-radius:2px;background:var(--cc)}
+.it .main{min-width:0}
+.it .ttl{font-weight:600;font-size:15.5px;line-height:1.25}
+.it.focus .ttl{font-family:var(--f-display);font-weight:400;font-size:18px}
+.it .sub{color:var(--muted);font-size:13px;margin-top:1px}
+.it .badges{margin-top:5px}
+.it .star{background:none;border:0;padding:2px 4px;font-size:18px;line-height:1;color:var(--line)}
+.it .star.on{color:var(--ochre)}
+.it.cancel .ttl{text-decoration:line-through}
+@media (max-width:520px){.it{grid-template-columns:44px 4px minmax(0,1fr);}.it .star{grid-column:3;justify-self:end;margin-top:-4px}}
+.more{display:block;margin:18px auto 0;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 18px;font-weight:600}
+
+/* week */
+.wnav{display:flex;align-items:center;gap:10px;margin-bottom:12px}
+.wnav h2{font-family:var(--f-display);font-weight:400;font-size:24px;margin:0;flex:1}
+.iconbtn{border:1px solid var(--line);background:var(--surface);border-radius:8px;min-width:36px;height:34px;padding:0 10px;font-weight:600}
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px;overflow-x:auto}
+@media (max-width:860px){.week{grid-template-columns:repeat(7,minmax(210px,1fr));scroll-snap-type:x mandatory}.week>.wd{scroll-snap-align:start}}
+.wd{background:var(--sunk);border-radius:var(--r);padding:8px;min-height:160px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.wd .wh{display:flex;justify-content:space-between;align-items:baseline;padding:2px 4px 4px}
+.wd .wh b{font-family:var(--f-display);font-weight:400;font-size:22px}
+.wd .wh span{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600}
+.wd.today{outline:2px solid var(--accent);outline-offset:-2px}
+.wd.today .wh b,.wd.today .wh span{color:var(--accent)}
+.wi{text-align:left;background:var(--surface);border:0;border-left:4px solid var(--cc);border-radius:6px;padding:6px 8px;font-size:12.5px;line-height:1.25;width:100%}
+.wi .tm{font-family:var(--f-mono);color:var(--muted);font-size:11.5px;display:block}
+.wi b{font-weight:600;display:block}
+.wi .c{color:var(--muted);font-size:11.5px}
+.wi.cancel b{text-decoration:line-through}
+
+/* month */
+.month{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.mh{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);font-weight:600;padding:6px 8px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--sunk)}
+.mc{min-height:104px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);padding:4px 5px;display:flex;flex-direction:column;gap:2px;text-align:left;background:var(--surface);border-top:0;border-left:0;min-width:0}
+.mc.out{background:var(--bg);color:var(--muted)}
+.mc .n{font-family:var(--f-mono);font-size:12px;padding:1px 3px;align-self:flex-start;border-radius:4px}
+.mc.today .n{background:var(--accent);color:#fff}
+.mc.sel{box-shadow:inset 0 0 0 2px var(--fg)}
+.mc .ev{font-size:11.5px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border-left:3px solid var(--cc);padding-left:4px}
+.mc .plus{font-size:11px;color:var(--muted)}
+.mc .dots{display:none;gap:3px;flex-wrap:wrap}
+.mc .dots i{width:7px;height:7px;border-radius:50%;background:var(--cc)}
+@media (max-width:620px){.mc{min-height:58px}.mc .ev,.mc .plus{display:none}.mc .dots{display:flex}}
+.daylist{margin-top:16px}
+.daylist h3{font-family:var(--f-display);font-weight:400;font-size:22px;margin:0 0 8px}
+
+/* empty */
+.empty{border:1px dashed var(--line);border-radius:var(--r);padding:28px;text-align:center;color:var(--muted)}
+.empty b{display:block;color:var(--fg);font-family:var(--f-display);font-weight:400;font-size:22px;margin-bottom:6px}
+
+/* detail */
+dialog{border:0;padding:0;background:var(--surface);color:var(--fg);border-radius:14px;width:min(640px,calc(100vw - 24px));max-height:calc(100vh - 40px);box-shadow:0 20px 60px rgb(0 0 0 / .35)}
+dialog::backdrop{background:rgb(10 8 6 / .5)}
+.dlg{padding:20px 22px 22px;display:flex;flex-direction:column;gap:12px}
+.dlg .head{display:flex;gap:12px;align-items:flex-start}
+.dlg .head .k{flex:1;min-width:0}
+.dlg .cat{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:var(--cc)}
+.dlg h2{font-family:var(--f-display);font-weight:400;font-size:28px;line-height:1.08;margin:4px 0 2px;text-wrap:balance}
+.dlg .art{color:var(--muted)}
+.facts{display:grid;grid-template-columns:auto minmax(0,1fr);gap:6px 14px;font-size:14px;background:var(--sunk);border-radius:var(--r);padding:12px 14px}
+.facts dt{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em;padding-top:2px}
+.facts dd{margin:0}
+.dlg .txt{font-size:14px;line-height:1.55}
+.dlg .txt a,.dlg .src a,.dl a{color:var(--accent)}
+.src{display:flex;flex-wrap:wrap;gap:6px}
+.src a{border:1px solid var(--line);border-radius:999px;padding:4px 10px;font-size:13px;text-decoration:none}
+.src a:hover{border-color:var(--accent)}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-weight:600;font-size:14px}
+.btn.primary{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.x{border:0;background:var(--sunk);border-radius:50%;width:34px;height:34px;font-size:18px;line-height:1;flex:0 0 auto}
+.note{font-size:12.5px;color:var(--muted)}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;z-index:50}
+footer{border-top:1px solid var(--line);padding-block:18px 28px;color:var(--muted);font-size:13px}
+footer p{max-width:70ch}
+.feeds{display:flex;flex-wrap:wrap;gap:6px}
+@media (prefers-reduced-motion:no-preference){.it,.pick,.wi{transition:border-color .15s}}
+</style>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+
+
+<header class="top wrap">
+  <div class="brand">
+    <h1>Kultur<em>radar</em></h1>
+    <div class="stand" id="stand"><span>Bologna &amp; Emilia-Romagna · Termine werden geladen …</span></div>
+  </div>
+</header>
+
+<section class="wrap band" aria-label="Auf einen Blick">
+  <div>
+    <p class="eyebrow">Top-Tipps diese Woche</p>
+    <div class="picks" id="picks"></div>
+  </div>
+  <div>
+    <p class="eyebrow">Fristen &amp; Anmeldungen</p>
+    <div class="deadlines" id="deadlines"></div>
+  </div>
+</section>
+
+<div class="controls" id="controls">
+  <div class="wrap">
+    <div class="row">
+      <div class="seg" role="group" aria-label="Ansicht">
+        <button type="button" data-view="agenda" aria-pressed="true">Agenda</button>
+        <button type="button" data-view="woche" aria-pressed="false">Woche</button>
+        <button type="button" data-view="monat" aria-pressed="false">Monat</button>
+      </div>
+      <div class="search"><input id="q" type="search" placeholder="Suchen: Titel, Ort, Kompanie" aria-label="Suchen"></div>
+    </div>
+    <div class="row">
+      <div class="chips" id="catchips" aria-label="Sparten"></div>
+    </div>
+    <div class="row">
+      <div class="chips" id="togchips" aria-label="Filter"></div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap" id="main" aria-live="polite"></main>
+
+<footer class="wrap" id="foot">
+  <p class="eyebrow">Kalender abonnieren</p>
+  <div class="feeds" id="feeds">
+    <button type="button" class="chip" data-feed="kulturradar.ics">Alle Termine</button>
+    <button type="button" class="chip" data-feed="tanz.ics">Nur Tanz</button>
+    <button type="button" class="chip" data-feed="ausfluege.ics">🚆 Ausflüge</button>
+    <button type="button" class="chip" data-feed="fristen.ics">Fristen</button>
+  </div>
+  <p>Tippe auf einen Feed, um seine Adresse zu kopieren, und füge sie in Google („Per URL“) oder Apple Kalender („Abonnement“) ein. Der Kalender aktualisiert sich dann nach jeder Prüfung von selbst.</p>
+  <p>Geprüft wird an den Seiten der Veranstalter. ✓ = an der Primärquelle gesehen, „prüfen“ = nur Sekundärquelle oder Widerspruch, vor dem Ticketkauf nachsehen. Die Merkliste wird nur in diesem Browser gespeichert.</p>
+</footer>
+
+<dialog id="dlg" aria-labelledby="dlg-title"></dialog>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+(() => {
+'use strict';
+const $ = (s, el = document) => el.querySelector(s);
+const h = (tag, attrs = {}, ...kids) => {
+  const el = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (v == null || v === false) continue;
+    if (k === 'class') el.className = v;
+    else if (k === 'text') el.textContent = v;
+    else if (k.startsWith('on')) el.addEventListener(k.slice(2), v);
+    else if (k === 'style') el.setAttribute('style', v);
+    else el.setAttribute(k, v === true ? '' : v);
+  }
+  for (const c of kids.flat()) if (c != null && c !== false) el.append(c.nodeType ? c : document.createTextNode(String(c)));
+  return el;
+};
+
+const put = (el, ...kids) => el.append(...kids.flat().filter(k => k != null && k !== false && k !== 0 && k !== ''));
+
+/* ---------- constants ---------- */
+const GROUPS = [
+  {key:'dance', label:'Tanz & Ballett', cats:['dance','ballet'], cat:'dance'},
+  {key:'pro', label:'Workshops & Proben', cats:['workshop','probe'], cat:'probe'},
+  {key:'opera', label:'Oper', cats:['opera'], cat:'opera'},
+  {key:'theatre', label:'Theater', cats:['theatre'], cat:'theatre'},
+  {key:'music', label:'Musik & Jazz', cats:['music'], cat:'music'},
+  {key:'social', label:'Social Dance', cats:['social'], cat:'social'},
+  {key:'more', label:'Führungen & mehr', cats:['tour','festival','art','other'], cat:'tour'},
+];
+const CATLABEL = {dance:'Tanz', ballet:'Ballett', workshop:'Workshop', probe:'Offene Probe', opera:'Oper', theatre:'Theater', music:'Musik', social:'Social Dance', tour:'Führung & Gespräch', festival:'Festival', art:'Ausstellung', other:'Sonstiges'};
+const FOCUS = new Set(['dance','ballet','workshop','probe']);
+const WD = ['So','Mo','Di','Mi','Do','Fr','Sa'];
+const WDL = ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'];
+const MON = ['Jan','Feb','Mär','Apr','Mai','Jun','Jul','Aug','Sep','Okt','Nov','Dez'];
+const MONL = ['Januar','Februar','März','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'];
+
+/* ---------- dates ---------- */
+const pad = n => String(n).padStart(2,'0');
+const iso = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const parse = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
+const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate()+n); return x; };
+const today = new Date(); today.setHours(0,0,0,0);
+const TODAY = iso(today);
+const mondayOf = d => addDays(d, -((d.getDay()+6)%7));
+const fmtShort = s => { const d = parse(s); return `${WD[d.getDay()]} ${d.getDate()}. ${MON[d.getMonth()]}`; };
+const daysUntil = s => Math.round((parse(s) - today) / 864e5);
+const relDay = n => n === 0 ? 'heute' : n === 1 ? 'morgen' : n === -1 ? 'gestern' : n > 1 ? `in ${n} Tagen` : `vor ${-n} Tagen`;
+
+/* ---------- state ---------- */
+const store = {
+  get(k, f) { try { const v = localStorage.getItem('kr.' + k); return v ? JSON.parse(v) : f; } catch { return f; } },
+  set(k, v) { try { localStorage.setItem('kr.' + k, JSON.stringify(v)); } catch {} },
+};
+const S = {
+  view: ['agenda','woche','monat'].includes(location.hash.slice(1)) ? location.hash.slice(1) : store.get('view', 'agenda'),
+  groups: new Set(store.get('groups', GROUPS.map(g => g.key))),
+  free: false, disc: false, verified: false, stars: false,
+  trips: store.get('trips', true),
+  q: '',
+  weekStart: mondayOf(today),
+  monthStart: new Date(today.getFullYear(), today.getMonth(), 1),
+  selDay: TODAY,
+  horizonWeeks: 8,
+  events: [], deadlines: [], meta: null, loaded: false, failed: false,
+  starIds: new Set(store.get('stars', [])),
+};
+const downloads = { save: async ({filename, data}) => { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([data], {type: 'text/calendar'})); a.download = filename; document.body.append(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1000); } };
+
+/* ---------- markdown subset (links, bold, italic) ---------- */
+function md(text) {
+  const frag = document.createDocumentFragment();
+  const rx = /\[([^\]]+)\]\(((?:https?:\/\/|mailto:)[^)\s]+)\)|\*\*([^*]+)\*\*|\*([^*\n]+)\*/g;
+  let last = 0, m;
+  while ((m = rx.exec(text))) {
+    if (m.index > last) frag.append(text.slice(last, m.index));
+    if (m[1] && m[2].startsWith('mailto:')) frag.append(h('span', {class:'mono', style:'user-select:all'}, m[2].slice(7)));
+    else if (m[1]) frag.append(h('a', {href: m[2], target: '_blank', rel: 'noopener'}, m[1]));
+    else if (m[3]) frag.append(h('b', {}, md(m[3])));
+    else frag.append(h('em', {}, m[4]));
+    last = rx.lastIndex;
+  }
+  if (last < text.length) frag.append(text.slice(last));
+  return frag;
+}
+
+/* ---------- data shaping ---------- */
+const groupOf = cat => GROUPS.find(g => g.cats.includes(cat))?.key || 'more';
+function matches(ev, {ignoreGroups = false} = {}) {
+  if (!ignoreGroups && !S.groups.has(groupOf(ev.cat))) return false;
+  if (!S.trips && ev.region === 'trip') return false;
+  if (S.free && !ev.free) return false;
+  if (S.disc && !ev.discount) return false;
+  if (S.verified && ev.status !== 'ok') return false;
+  if (S.stars && !S.starIds.has(ev.id)) return false;
+  if (S.q) {
+    const hay = `${ev.title} ${ev.artist||''} ${ev.venue} ${ev.city} ${ev.sparte} ${ev.text}`.toLowerCase();
+    if (!S.q.toLowerCase().split(/\s+/).every(w => hay.includes(w))) return false;
+  }
+  return true;
+}
+function occurrences(from, to, opts) {
+  const out = [];
+  for (const ev of S.events) {
+    if (!matches(ev, opts)) continue;
+    for (const o of ev.dates || []) if (o.date >= from && o.date <= to) out.push({ev, date: o.date, time: o.time});
+  }
+  out.sort((a, b) => a.date.localeCompare(b.date) || (a.time||'99').localeCompare(b.time||'99') || (FOCUS.has(b.ev.cat) - FOCUS.has(a.ev.cat)));
+  return out;
+}
+function ongoing(from, to) {
+  return S.events.filter(ev => ev.range && matches(ev) && (ev.range.end >= from) && (!ev.range.start || ev.range.start <= to));
+}
+const nextDate = ev => (ev.dates || []).map(o => o.date).find(d => d >= TODAY) || null;
+
+/* ---------- small renderers ---------- */
+function badges(ev, {compact = false} = {}) {
+  const b = [];
+  if (ev.status === 'cancel') b.push(h('span', {class:'b cancel'}, 'abgesagt'));
+  if (ev.soldOut === 'full') b.push(h('span', {class:'b sold'}, 'ausverkauft'));
+  if (ev.soldOut === 'few') b.push(h('span', {class:'b few'}, 'letzte Plätze'));
+  if (ev.free) b.push(h('span', {class:'b free'}, 'gratis'));
+  if (ev.discount) b.push(h('span', {class:'b disc'}, 'Rabatt'));
+  if (ev.premiere) b.push(h('span', {class:'b prem'}, 'Premiere/UA'));
+  if (ev.status === 'check' || ev.status === 'partial') b.push(h('span', {class:'b check', title: ev.statusNote || ''}, ev.status === 'check' ? 'prüfen' : 'teils prüfen'));
+  if (!compact && ev.region === 'trip') b.push(h('span', {class:'b trip'}, 'Ausflug'));
+  return h('div', {class:'badges'}, b);
+}
+function starBtn(ev) {
+  const on = S.starIds.has(ev.id);
+  return h('button', {type:'button', class: 'star' + (on ? ' on' : ''), 'aria-pressed': String(on), 'aria-label': on ? 'Von der Merkliste nehmen' : 'Auf die Merkliste',
+    onclick: e => { e.stopPropagation(); toggleStar(ev.id); }}, on ? '★' : '☆');
+}
+function item(o) {
+  const ev = o.ev;
+  return h('div', {class: `it${FOCUS.has(ev.cat) ? ' focus' : ''}${ev.status === 'cancel' ? ' cancel' : ''}`, 'data-cat': ev.cat, role:'button', tabindex:'0',
+      onclick: () => openDetail(ev), onkeydown: e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDetail(ev); } }},
+    h('span', {class:'tm'}, o.time ? o.time.replace(' + ', '\n+') : '—'),
+    h('span', {class:'bar'}),
+    h('div', {class:'main'},
+      h('div', {class:'ttl'}, ev.title),
+      h('div', {class:'sub'}, [ev.artist, [ev.venue, ev.city].filter(Boolean).join(', ')].filter(Boolean).join(' · ')),
+      badges(ev)),
+    starBtn(ev));
+}
+
+/* ---------- header, picks, deadlines ---------- */
+function renderStand() {
+  const m = S.meta;
+  const el = $('#stand'); el.replaceChildren();
+  if (!m) { el.append(h('span', {}, 'Bologna & Emilia-Romagna')); return; }
+  put(el,
+    h('span', {}, `Stand ${m.lastCheck ? fmtShort(m.lastCheck) : '–'} · Version ${m.version ?? '–'}`),
+    m.nextCheck ? h('span', {}, `nächste Prüfung ${fmtShort(m.nextCheck)}`) : null,
+    m.briefUrl ? h('a', {href: m.briefUrl, target:'_blank', rel:'noopener'}, 'Wochenbrief ↗') : null,
+    h('a', {href: '#foot'}, 'Kalender abonnieren'),
+    h('a', {href: 'https://github.com/' + (document.querySelector('meta[name=repo]')?.content || ''), target:'_blank', rel:'noopener'}, 'Änderungsverlauf ↗'));
+}
+function renderPicks() {
+  const el = $('#picks'); el.replaceChildren();
+  const byId = new Map(S.events.map(e => [e.id, e]));
+  let picks = (S.meta?.topPicks || []).map(p => ({ev: byId.get(p.id), why: p.why})).filter(p => p.ev && nextDate(p.ev));
+  if (picks.length < 3) {
+    const until = iso(addDays(today, 9));
+    const auto = occurrences(TODAY, until, {ignoreGroups: true})
+      .filter(o => FOCUS.has(o.ev.cat) && o.ev.status === 'ok' && o.ev.soldOut !== 'full' && !picks.some(p => p.ev.id === o.ev.id));
+    auto.sort((a, b) => (b.ev.premiere - a.ev.premiere) || a.date.localeCompare(b.date));
+    for (const o of auto) { if (picks.length >= 3) break; if (!picks.some(p => p.ev.id === o.ev.id)) picks.push({ev: o.ev, why: o.ev.premiere ? 'Erstaufführung in der Region.' : ''}); }
+  }
+  if (!picks.length) { el.append(h('div', {class:'empty', style:'grid-column:1/-1'}, S.loaded ? 'Diese Woche keine geprüften Tanz-Highlights.' : 'Wird geladen …')); return; }
+  for (const p of picks.slice(0, 3)) {
+    const nd = nextDate(p.ev); const occ = p.ev.dates.find(o => o.date === nd);
+    el.append(h('button', {type:'button', class:'pick', 'data-cat': p.ev.cat, onclick: () => openDetail(p.ev)},
+      h('span', {class:'when'}, `${fmtShort(nd)}${occ?.time ? ' · ' + occ.time : ''} · ${p.ev.city}`),
+      h('h3', {}, p.ev.title),
+      p.ev.artist ? h('span', {class:'art'}, p.ev.artist) : null,
+      p.why ? h('span', {class:'why'}, p.why) : null,
+      badges(p.ev, {compact: true})));
+  }
+}
+function renderDeadlines() {
+  const el = $('#deadlines'); el.replaceChildren();
+  const list = S.deadlines
+    .filter(d => d.kind === 'ongoing' || !d.date || d.date >= TODAY)
+    .sort((a, b) => (a.date || '9999').localeCompare(b.date || '9999'));
+  if (!list.length) { el.append(h('div', {class:'dl'}, h('span', {class:'cd'}, '–'), h('span', {class:'t'}, S.loaded ? 'Keine offenen Fristen.' : 'Wird geladen …'))); return; }
+  for (const d of list) {
+    let cd;
+    if (d.date) { const n = daysUntil(d.date); cd = h('span', {class: 'cd' + (n <= 3 ? ' hot' : '')}, relDay(n), h('small', {}, fmtShort(d.date))); }
+    else cd = h('span', {class:'cd'}, d.kind === 'ongoing' ? 'laufend' : '–', h('small', {}, d.label || ''));
+    el.append(h('div', {class:'dl'}, cd,
+      h('div', {class:'t'},
+        h('b', {}, (d.trip ? '🚆 ' : '') + (d.title || '').replace(/^🚆\s*/, '')),
+        d.text ? h('details', {}, h('summary', {}, 'Details'), h('div', {class:'full'}, md(d.text)), d.sources?.length ? h('div', {class:'full'}, ...d.sources.map((s, i) => [i ? ' · ' : '', h('a', {href: s.url, target:'_blank', rel:'noopener'}, s.label)])) : null) : null)));
+  }
+}
+
+/* ---------- chips ---------- */
+function renderChips() {
+  const cc = $('#catchips'); cc.replaceChildren();
+  const horizon = iso(addDays(today, S.horizonWeeks * 7));
+  const counts = {};
+  for (const ev of S.events) if (matches(ev, {ignoreGroups: true}) && (ev.dates||[]).some(o => o.date >= TODAY && o.date <= horizon)) counts[groupOf(ev.cat)] = (counts[groupOf(ev.cat)] || 0) + 1;
+  for (const g of GROUPS) {
+    cc.append(h('button', {type:'button', class:'chip', 'data-cat': g.cat, 'aria-pressed': String(S.groups.has(g.key)),
+      onclick: e => {
+        if (e.shiftKey || e.altKey) S.groups = new Set([g.key]);
+        else S.groups.has(g.key) ? S.groups.delete(g.key) : S.groups.add(g.key);
+        if (!S.groups.size) S.groups = new Set(GROUPS.map(x => x.key));
+        store.set('groups', [...S.groups]); render();
+      }}, h('span', {class:'dot'}), g.label, h('span', {class:'n'}, counts[g.key] || 0)));
+  }
+  cc.append(h('button', {type:'button', class:'chip tog', 'aria-pressed':'false', onclick: () => { S.groups = new Set(['dance','pro']); store.set('groups', [...S.groups]); render(); }}, 'Nur Tanz-Fokus'));
+  cc.append(h('button', {type:'button', class:'chip tog', 'aria-pressed':'false', onclick: () => { S.groups = new Set(GROUPS.map(x => x.key)); store.set('groups', [...S.groups]); render(); }}, 'Alle Sparten'));
+  const tc = $('#togchips'); tc.replaceChildren();
+  const tog = (key, label, persist) => h('button', {type:'button', class:'chip tog', 'aria-pressed': String(S[key]),
+    onclick: () => { S[key] = !S[key]; if (persist) store.set(key, S[key]); render(); }}, label);
+  put(tc, tog('free', 'gratis'), tog('disc', 'Studi-/U30-Rabatt'), tog('verified', 'nur geprüft ✓'),
+    h('span', {class:'sep'}), tog('trips', '🚆 Ausflüge zeigen', true),
+    h('span', {class:'sep'}), h('button', {type:'button', class:'chip tog', 'aria-pressed': String(S.stars), onclick: () => { S.stars = !S.stars; render(); }}, `★ Merkliste`, h('span', {class:'n'}, S.starIds.size)),
+    S.starIds.size && downloads ? h('button', {type:'button', class:'chip', onclick: exportStars}, 'Merkliste in Kalender (.ics)') : null);
+}
+
+/* ---------- views ---------- */
+function emptyState() {
+  if (S.failed) return h('div', {class:'empty'}, h('b', {}, 'Termine nicht erreichbar'), 'Die Datendateien (data/*.json) konnten nicht geladen werden. Lade die Seite neu.');
+  if (!S.loaded) return h('div', {class:'empty'}, h('b', {}, 'Termine werden geladen'), 'Einen Moment …');
+  if (!S.events.length) return h('div', {class:'empty'}, h('b', {}, 'Noch keine Termine'), 'Der Montags-Task trägt die geprüften Termine hier ein.');
+  return h('div', {class:'empty'}, h('b', {}, 'Nichts gefunden'), 'Für diese Filter gibt es keine Termine. Setze einen Filter zurück oder wähle „Alle Sparten“.');
+}
+function ongoingStrip(from, to) {
+  const og = ongoing(from, to);
+  if (!og.length) return null;
+  return h('div', {class:'ongoing', 'aria-label':'Laufend'}, og.map(ev =>
+    h('button', {type:'button', class:'ong', 'data-cat': ev.cat, onclick: () => openDetail(ev)},
+      h('b', {}, ev.title), ' ', h('span', {}, ev.range.end ? `bis ${fmtShort(ev.range.end)}` : 'laufend'))));
+}
+function dayBlock(date, occs) {
+  const d = parse(date);
+  return h('section', {class:'day'},
+    h('div', {class: 'dh' + (date === TODAY ? ' today' : '')},
+      h('div', {class:'dnum'}, d.getDate() + '.'),
+      h('div', {class:'dname'}, `${date === TODAY ? 'heute' : WDL[d.getDay()]} · ${MON[d.getMonth()]}`)),
+    h('div', {class:'items'}, occs.map(item)));
+}
+function renderAgenda(main) {
+  const to = iso(addDays(today, S.horizonWeeks * 7 - 1));
+  main.append(ongoingStrip(TODAY, to) || '');
+  const occs = occurrences(TODAY, to);
+  if (!occs.length) { main.append(emptyState()); }
+  const byDay = new Map();
+  for (const o of occs) { if (!byDay.has(o.date)) byDay.set(o.date, []); byDay.get(o.date).push(o); }
+  for (const [date, list] of byDay) main.append(dayBlock(date, list));
+  const later = occurrences(addDays(parse(to), 1) && iso(addDays(parse(to), 1)), '2099-12-31').length;
+  if (later) main.append(h('button', {type:'button', class:'more', onclick: () => { S.horizonWeeks += 8; render(); }}, `Weitere ${later} Termine danach anzeigen`));
+}
+function renderWeek(main) {
+  const ws = S.weekStart, we = addDays(ws, 6);
+  main.append(h('div', {class:'wnav'},
+    h('button', {type:'button', class:'iconbtn', 'aria-label':'Vorige Woche', onclick: () => { S.weekStart = addDays(S.weekStart, -7); render(); }}, '‹'),
+    h('h2', {}, `${ws.getDate()}. ${MON[ws.getMonth()]} – ${we.getDate()}. ${MON[we.getMonth()]} ${we.getFullYear()}`),
+    h('button', {type:'button', class:'iconbtn', onclick: () => { S.weekStart = mondayOf(today); render(); }}, 'Heute'),
+    h('button', {type:'button', class:'iconbtn', 'aria-label':'Nächste Woche', onclick: () => { S.weekStart = addDays(S.weekStart, 7); render(); }}, '›')));
+  main.append(ongoingStrip(iso(ws), iso(we)) || '');
+  const occs = occurrences(iso(ws), iso(we));
+  const grid = h('div', {class:'week'});
+  for (let i = 0; i < 7; i++) {
+    const d = addDays(ws, i), ds = iso(d);
+    const list = occs.filter(o => o.date === ds);
+    grid.append(h('div', {class: 'wd' + (ds === TODAY ? ' today' : '')},
+      h('div', {class:'wh'}, h('span', {}, WD[d.getDay()]), h('b', {}, d.getDate())),
+      list.length ? list.map(o => h('button', {type:'button', class: 'wi' + (o.ev.status === 'cancel' ? ' cancel' : ''), 'data-cat': o.ev.cat, onclick: () => openDetail(o.ev)},
+        h('span', {class:'tm'}, o.time || 'ganztägig'), h('b', {}, o.ev.title), h('span', {class:'c'}, o.ev.city), badges(o.ev, {compact:true})))
+        : h('span', {class:'note', style:'padding:4px'}, '—')));
+  }
+  main.append(grid);
+}
+function renderMonth(main) {
+  const ms = S.monthStart;
+  main.append(h('div', {class:'wnav'},
+    h('button', {type:'button', class:'iconbtn', 'aria-label':'Voriger Monat', onclick: () => { S.monthStart = new Date(ms.getFullYear(), ms.getMonth()-1, 1); render(); }}, '‹'),
+    h('h2', {}, `${MONL[ms.getMonth()]} ${ms.getFullYear()}`),
+    h('button', {type:'button', class:'iconbtn', onclick: () => { S.monthStart = new Date(today.getFullYear(), today.getMonth(), 1); S.selDay = TODAY; render(); }}, 'Heute'),
+    h('button', {type:'button', class:'iconbtn', 'aria-label':'Nächster Monat', onclick: () => { S.monthStart = new Date(ms.getFullYear(), ms.getMonth()+1, 1); render(); }}, '›')));
+  const gs = mondayOf(ms), ge = addDays(gs, 41);
+  const occs = occurrences(iso(gs), iso(ge));
+  const grid = h('div', {class:'month', role:'grid'});
+  ['Mo','Di','Mi','Do','Fr','Sa','So'].forEach(w => grid.append(h('div', {class:'mh'}, w)));
+  for (let i = 0; i < 42; i++) {
+    const d = addDays(gs, i), ds = iso(d);
+    if (i === 35 && d.getMonth() !== ms.getMonth()) break;
+    const list = occs.filter(o => o.date === ds);
+    grid.append(h('button', {type:'button', class: `mc${d.getMonth() !== ms.getMonth() ? ' out' : ''}${ds === TODAY ? ' today' : ''}${ds === S.selDay ? ' sel' : ''}`,
+        'aria-label': `${fmtShort(ds)}: ${list.length} Termine`, onclick: () => { S.selDay = ds; render(); }},
+      h('span', {class:'n'}, d.getDate()),
+      list.slice(0, 3).map(o => h('span', {class:'ev', 'data-cat': o.ev.cat}, o.ev.title)),
+      list.length > 3 ? h('span', {class:'plus'}, `+${list.length - 3} weitere`) : null,
+      h('span', {class:'dots'}, list.slice(0, 8).map(o => h('i', {'data-cat': o.ev.cat})))));
+  }
+  main.append(h('div', {style:'overflow-x:auto'}, grid));
+  const dl = occurrences(S.selDay, S.selDay);
+  main.append(h('div', {class:'daylist'}, h('h3', {}, `${WDL[parse(S.selDay).getDay()]}, ${parse(S.selDay).getDate()}. ${MONL[parse(S.selDay).getMonth()]}`),
+    dl.length ? h('div', {class:'items'}, dl.map(item)) : h('p', {class:'note'}, 'An diesem Tag nichts für deine Filter.')));
+}
+
+function render() {
+  for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', String(b.dataset.view === S.view));
+  renderStand(); renderPicks(); renderDeadlines(); renderChips();
+  const main = $('#main'); main.replaceChildren();
+  if (!S.events.length) { main.append(emptyState()); return; }
+  if (S.view === 'woche') renderWeek(main);
+  else if (S.view === 'monat') renderMonth(main);
+  else renderAgenda(main);
+  document.documentElement.style.setProperty('--ctrl-h', $('#controls').offsetHeight + 'px');
+}
+
+/* ---------- detail ---------- */
+function openDetail(ev) {
+  const dlg = $('#dlg'); dlg.replaceChildren();
+  const future = (ev.dates || []).filter(o => o.date >= TODAY);
+  const facts = h('dl', {class:'facts'},
+    h('dt', {}, 'Wann'), h('dd', {}, ev.when || '–',
+      future.length ? h('div', {class:'note'}, 'Nächste: ' + future.slice(0, 6).map(o => fmtShort(o.date) + (o.time ? ' ' + o.time : '')).join(' · ')) : null),
+    h('dt', {}, 'Wo'), h('dd', {}, [ev.venue, ev.city].filter(Boolean).join(', ') || '–'),
+    h('dt', {}, 'Status'), h('dd', {}, ev.status === 'ok' ? '✓ an der Primärquelle geprüft' : ev.status === 'cancel' ? 'abgesagt / verschoben' : ev.statusNote || 'prüfen', ev.status === 'ok' && ev.statusNote && ev.statusNote !== '✅' ? h('div', {class:'note'}, ev.statusNote) : null));
+  const on = S.starIds.has(ev.id);
+  dlg.append(h('div', {class:'dlg', 'data-cat': ev.cat},
+    h('div', {class:'head'},
+      h('div', {class:'k'},
+        h('div', {class:'cat'}, `${CATLABEL[ev.cat] || ev.sparte}${ev.region === 'trip' ? ' · Ausflug' : ''}`),
+        h('h2', {id:'dlg-title'}, ev.title),
+        ev.artist ? h('div', {class:'art'}, ev.artist) : null),
+      h('button', {type:'button', class:'x', 'aria-label':'Schließen', onclick: () => dlg.close()}, '×')),
+    badges(ev),
+    facts,
+    h('div', {class:'txt'}, md(ev.text || '')),
+    ev.sources?.length ? h('div', {class:'src'}, ev.sources.map(s => h('a', {href: s.url, target:'_blank', rel:'noopener'}, s.label + ' ↗'))) : null,
+    h('div', {class:'actions'},
+      h('button', {type:'button', class: 'btn' + (on ? '' : ' primary'), onclick: () => { toggleStar(ev.id); openDetail(ev); }}, on ? '★ Auf der Merkliste' : '☆ Merken'),
+      downloads && future.length ? h('button', {type:'button', class:'btn', onclick: () => saveIcs([ev], ev.title)}, 'In meinen Kalender (.ics)') : null),
+    h('p', {class:'note'}, 'Vor dem Ticketkauf bitte die verlinkte Quelle öffnen. Gekauft oder reserviert wird nichts automatisch.')));
+  if (!dlg.open) dlg.showModal();
+}
+$('#dlg').addEventListener('click', e => { if (e.target === e.currentTarget) e.currentTarget.close(); });
+
+/* ---------- stars ---------- */
+function toggleStar(id) {
+  S.starIds.has(id) ? S.starIds.delete(id) : S.starIds.add(id);
+  store.set('stars', [...S.starIds]);
+  savePrefs();
+  render();
+}
+let prefsTimer = null;
+function savePrefs() { /* Merkliste liegt nur im Browser (localStorage) */ }
+
+/* ---------- ics ---------- */
+function icsEsc(s) { return String(s || '').replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/([,;])/g, '\\$1'); }
+function buildIcs(evs) {
+  const L = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Kulturradar//DE', 'CALSCALE:GREGORIAN'];
+  const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
+  for (const ev of evs) for (const o of (ev.dates || []).filter(o => o.date >= TODAY)) {
+    const d = o.date.replace(/-/g, '');
+    const t = (o.time || '').match(/^(\d{2}):(\d{2})/);
+    L.push('BEGIN:VEVENT', `UID:${ev.id}-${d}${t ? t[1] + t[2] : ''}@kulturradar`, `DTSTAMP:${stamp}`);
+    if (t) {
+      const end = new Date(+d.slice(0,4), +d.slice(4,6)-1, +d.slice(6,8), +t[1] + 2, +t[2]);
+      L.push(`DTSTART;TZID=Europe/Rome:${d}T${t[1]}${t[2]}00`, `DTEND;TZID=Europe/Rome:${iso(end).replace(/-/g,'')}T${pad(end.getHours())}${pad(end.getMinutes())}00`);
+    } else {
+      L.push(`DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${iso(addDays(parse(o.date), 1)).replace(/-/g, '')}`);
+    }
+    L.push(`SUMMARY:${icsEsc(ev.title + (ev.artist ? ' – ' + ev.artist : ''))}`, `LOCATION:${icsEsc([ev.venue, ev.city].filter(Boolean).join(', '))}`,
+      `DESCRIPTION:${icsEsc((ev.when || '') + (ev.sources?.[0] ? '\n' + ev.sources[0].url : ''))}`);
+    if (ev.sources?.[0]) L.push(`URL:${ev.sources[0].url}`);
+    L.push('END:VEVENT');
+  }
+  L.push('END:VCALENDAR');
+  return L.join('\r\n');
+}
+async function saveIcs(evs, name) {
+  if (!downloads) return;
+  const fname = 'kulturradar-' + String(name).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) + '.ics';
+  try { await downloads.save({filename: fname, data: buildIcs(evs)}); toast('Kalenderdatei heruntergeladen'); }
+  catch { toast('Nicht gespeichert'); }
+}
+function exportStars() { saveIcs(S.events.filter(e => S.starIds.has(e.id)), 'merkliste'); }
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => { t.hidden = true; }, 2200); }
+
+/* ---------- wiring ---------- */
+for (const b of document.querySelectorAll('.seg button')) b.addEventListener('click', () => {
+  S.view = b.dataset.view; store.set('view', S.view);
+  try { history.replaceState(null, '', '#' + S.view); } catch {}
+  render();
+});
+let qT; $('#q').addEventListener('input', e => { clearTimeout(qT); qT = setTimeout(() => { S.q = e.target.value.trim(); render(); }, 160); });
+window.addEventListener('resize', () => document.documentElement.style.setProperty('--ctrl-h', $('#controls').offsetHeight + 'px'));
+
+for (const b of document.querySelectorAll('[data-feed]')) b.addEventListener('click', async () => {
+  const url = new URL(b.dataset.feed, location.href).href;
+  try { await navigator.clipboard.writeText(url); toast('Adresse kopiert: ' + b.dataset.feed); }
+  catch { prompt('Adresse des Kalender-Feeds:', url); }
+});
+
+render();
+
+/* ---------- data ---------- */
+(async () => {
+  try {
+    const bust = '?v=' + Date.now();
+    const [e, d, m] = await Promise.all(['events', 'deadlines', 'meta'].map(n => fetch('data/' + n + '.json' + bust).then(r => { if (!r.ok) throw new Error(n); return r.json(); })));
+    S.events = e.events || []; S.deadlines = d.deadlines || []; S.meta = m; S.loaded = true;
+  } catch { S.failed = true; }
+  render();
+})();
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,100 @@
+# Quellenliste des Kulturradars.
+# tier1 / tier2: dürfen als Beleg dienen (✅ möglich).
+# tier3: nur Discovery, nie Beleg.
+# Subdomains zählen mit (stagione2027.tcbo.it gehört zu tcbo.it).
+# trips: Beleg-Quellen für Florenz, Mailand, Turin, Venedig.
+# calendars: Seiten, die scraper/discover.py täglich nach neuen Terminen absucht.
+#   adapter: jsonld (schema.org Event im HTML), ical (iCal-Feed) oder ein Name aus scraper/adapters/.
+#   enabled: false = noch nicht getestet; erst einschalten, wenn ein Test mit gespeicherter Seite grün ist.
+
+tier1:
+  - tcbo.it
+  - bologna.emiliaromagnateatro.com
+  - modena.emiliaromagnateatro.com
+  - teatroduse.it
+  - teatrocelebrazioni.it
+  - genderbender.it
+  - bolognajazzfestival.com
+  - danzaurbana.eu
+  - iteatri.re.it
+  - collezionemaramotti.org
+  - teatroregioparma.it
+  - teatrocomunalemodena.it
+  - teatrocomunaleferrara.it
+  - ravennafestival.org
+  - teatroalighieri.org
+  - festivalfilosofia.it
+
+tier2:
+  - culturabologna.it
+  - bolognaestate.it
+  - cartellone.emiliaromagnacultura.it
+  - bolognawelcome.com
+
+tier3:
+  - bolognateatro.it
+  - bolognatoday.it
+  - estense.com
+  - stampareggiana.it
+  - operaclick.com
+  - gbopera.it
+  - danzaedanza.com
+  - teatroecritica.net
+
+trips:
+  Mailand: [teatroallascala.org, milanoltre.org, elfo.org, triennale.org, piccoloteatro.org, zonak.it]
+  Turin: [torinodanzafestival.it, teatroregio.torino.it, teatrostabiletorino.it, lavanderiaavapore.eu]
+  Florenz: [maggiofiorentino.com, fabbricaeuropa.net, teatrodellapergola.com, virgiliosieni.it]
+  Venedig: [teatrolafenice.it, labiennale.org]
+
+calendars:
+  - name: TCBO Kalender
+    url: https://www.tcbo.it/calendario-eventi/
+    adapter: jsonld
+    enabled: false
+  - name: Teatro Duse
+    url: https://teatroduse.it/spettacoli/
+    adapter: jsonld
+    enabled: false
+  - name: ERT Bologna
+    url: https://bologna.emiliaromagnateatro.com/
+    adapter: jsonld
+    enabled: false
+  - name: ERT Modena
+    url: https://modena.emiliaromagnateatro.com/
+    adapter: jsonld
+    enabled: false
+  - name: I Teatri Reggio Emilia
+    url: https://www.iteatri.re.it/
+    adapter: jsonld
+    enabled: false
+  - name: Teatro Regio Parma
+    url: https://teatroregioparma.it/
+    adapter: jsonld
+    enabled: false
+  - name: Teatro Comunale Modena (Danza)
+    url: https://www.teatrocomunalemodena.it/danza/
+    adapter: jsonld
+    enabled: false
+  - name: Teatro Comunale Ferrara
+    url: https://www.teatrocomunaleferrara.it/
+    adapter: jsonld
+    enabled: false
+  - name: Gender Bender Programm
+    url: https://genderbender.it/programma-2026/
+    adapter: jsonld
+    enabled: false
+  - name: Bologna Jazz Festival
+    url: https://www.bolognajazzfestival.com/calendario.html
+    adapter: jsonld
+    enabled: false
+  - name: Teatro Celebrazioni Danza
+    url: https://teatrocelebrazioni.it/la-danza/
+    adapter: jsonld
+    enabled: false
+
+# Schlüsselwörter für die tägliche Quellenprüfung (scraper/watch.py), Italienisch und Englisch.
+keywords:
+  soldout: ["sold out", "esaurito", "tutto esaurito", "posti esauriti", "biglietti esauriti"]
+  few: ["ultimi posti", "last seats", "pochi posti"]
+  cancel: ["annullato", "annullata", "cancellato", "cancellata", "rinviato", "rinviata", "posticipato", "sospeso", "cancelled", "postponed", "sciopero", "strike"]

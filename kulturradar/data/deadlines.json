@@ -1,0 +1,184 @@
+{
+ "updated": "2026-10-23T12:00:00Z",
+ "deadlines": [
+  {
+   "id": "tcbo-semele-10-karten-fur-studierende-un",
+   "date": null,
+   "kind": "ongoing",
+   "label": "läuft (seit ca. 23.09.)",
+   "text": "TCBO *Semele*: 10-€-Karten für Studierende (UNIBO, Accademia di Belle Arti, Conservatorio Martini) — **nur für die Nachmittagsvorstellung am 25.10.**, nur an der Kasse, mit Ausweis und Immatrikulationsbescheinigung. Verkaufsstart laut Seite „a partire da un mese prima della prima“ (Premiere 23.10.) — das Datum 23.09. ist daraus abgeleitet, nicht ausdrücklich genannt. Stand 28.09.: Die Seite nennt die Nachmittagsvorstellungen (turni Pomeriggio 1 und 2), „nur 25.10.“ steht dort nicht wörtlich — der 25.10. 16:00 ist aber die einzige Nachmittagsvorstellung. Kasse Di–Fr 12–18, Sa 11–15. **Stand 19.10.:** Widerspruch besteht weiter — Rabattseite (Stand 19.02.2026): Oper nur UNIBO und nur Turni Pomeriggio (= 25.10.); *Semele*-Seite: 10 € für alle Studierenden von UNIBO, Accademia und Conservatorio „per gli spettacoli della Stagione Opera 2026“, ohne Terminbeschränkung. An der Kasse klären",
+   "title": "TCBO Semele: 10-€-Karten für Studierende (UNIBO, Accademia di Belle Arti,…",
+   "status": "check",
+   "statusNote": "🟡 Widerspruch (Termin und Berechtigte)",
+   "trip": false,
+   "free": false,
+   "discount": true,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/riduzioni-e-agevolazioni/"
+    }
+   ]
+  },
+  {
+   "id": "bologna-jazz-festival-gratis-konzerte-im",
+   "date": null,
+   "kind": "ongoing",
+   "label": "Regel",
+   "text": "Bologna Jazz Festival: **gratis** Konzerte im MAST (Danilo Rea 26.10., Zenón/Perdomo 4.11.) nur mit Reservierung, buchbar „da circa una settimana prima dell'evento“ — für Danilo Rea also etwa ab 19.10., für Zenón/Perdomo (4.11., 21:00) etwa ab 28.10. Ob die Rea-Reservierung offen oder ausgebucht ist, war am 19.10. nicht prüfbar (keine MAST-Eventseite gefunden)",
+   "title": "Bologna Jazz Festival: gratis Konzerte im MAST (Danilo Rea 26.10., Zenón/Perdomo…",
+   "status": "ok",
+   "statusNote": "✅ Regel",
+   "trip": false,
+   "free": true,
+   "discount": false,
+   "sources": [
+    {
+     "label": "bolognajazzfestival.com",
+     "url": "https://www.bolognajazzfestival.com/calendario.html"
+    }
+   ]
+  },
+  {
+   "id": "bologna-ballet-competition-23-25-10-teat-2026-10-25",
+   "date": "2026-10-25",
+   "kind": "date",
+   "label": "Info 25.10.",
+   "text": "Bologna Ballet Competition (23.–25.10., Teatro Duse): Wettbewerb mit Masterclasses, Workshops und Auditions (✅ laut Duse-Seite). **Widerspruch Masterclasses:** [bolognaballetcompetition.com/it/workshops](https://bolognaballetcompetition.com/it/workshops/) nennt sie **gratis** mit Anmeldung per E-Mail (begrenzte Plätze, Programm „a breve“), die Duse-Seite verlangt ein Tagesticket (Kasse/Vivaticket). **19.10.:** Workshop-Seite der BBC nicht erreichbar (Serverfehler); auf /it/ und /it/programma/ weder Masterclass-Programm noch JV2-Audition (25.10., 17–21 J., weiterhin nur Presse) zu sehen",
+   "title": "Bologna Ballet Competition (23.–25.10., Teatro Duse): Wettbewerb mit Masterclasses,…",
+   "status": "partial",
+   "statusNote": "✅ Rahmen / 🟡 Masterclass-Konditionen (Widerspruch) und JV2-Audition",
+   "trip": false,
+   "free": true,
+   "discount": false,
+   "sources": [
+    {
+     "label": "teatroduse.it",
+     "url": "https://teatroduse.it/spettacoli/bologna-ballet-competition-teatro-duse/"
+    }
+   ]
+  },
+  {
+   "id": "reservierung-startet-uber-mast-org-fur-d-2026-11-11",
+   "date": "2026-11-11",
+   "kind": "outlook",
+   "label": "Ausblick: 11.11.",
+   "text": "Reservierung startet (über [mast.org](http://mast.org)) für das **gratis** *Poetry Event* mit Carolyn Carlson (27.11., MAST)",
+   "title": "Reservierung startet (über mast.org) für das gratis Poetry Event mit Carolyn Carlson…",
+   "status": "ok",
+   "statusNote": "✅",
+   "trip": false,
+   "free": true,
+   "discount": false,
+   "sources": [
+    {
+     "label": "bologna.emiliaromagnateatro.com",
+     "url": "https://bologna.emiliaromagnateatro.com/spettacolo/poetry-event/"
+    }
+   ]
+  },
+  {
+   "id": "modena-macbeth-30-10-1-11-und-der-fliege",
+   "date": null,
+   "kind": "ongoing",
+   "label": "läuft seit 03.10.",
+   "text": "Modena *Macbeth* (30.10./1.11.) und *Der fliegende Holländer* (20./22.11.): Vorverkauf läuft; **Rabatt** unter 30 (*Macbeth* 21,50–39 €). Am 12.10. bestätigt",
+   "title": "Modena Macbeth (30.10./1.11.) und Der fliegende Holländer (20./22.11.): Vorverkauf läuft",
+   "status": "ok",
+   "statusNote": "✅",
+   "trip": false,
+   "free": false,
+   "discount": true,
+   "sources": [
+    {
+     "label": "teatrocomunalemodena.it",
+     "url": "https://www.teatrocomunalemodena.it/spettacolo/giuseppe-verdi-macbeth-2/"
+    }
+   ]
+  },
+  {
+   "id": "tcbo-sinfoniekonzerte-10-karten-fur-stud",
+   "date": null,
+   "kind": "ongoing",
+   "label": "Regel",
+   "text": "TCBO-Sinfoniekonzerte: 10-€-Karten für Studierende (UNIBO, Accademia, Conservatorio) **ab einer Woche vor dem Konzert** an der Kasse — nächste: Abbado 26.10. (also ab 19.10.), Chauhan 6.11. (ab ca. 30.10.); Rabattseite und Bolton-Seite stimmen überein",
+   "title": "TCBO-Sinfoniekonzerte: 10-€-Karten für Studierende (UNIBO, Accademia, Conservatorio)…",
+   "status": "ok",
+   "statusNote": "✅ Regel",
+   "trip": false,
+   "free": false,
+   "discount": true,
+   "sources": [
+    {
+     "label": "tcbo.it",
+     "url": "https://www.tcbo.it/eventi/concerti-2026-sinfonica-bolton/"
+    }
+   ]
+  },
+  {
+   "id": "mailand-verkaufsstart-otello-under30-pre-2026-11-04",
+   "date": "2026-11-04",
+   "kind": "outlook",
+   "label": "Ausblick: 4.11., 13:00",
+   "text": "🚆 Mailand: Verkaufsstart *Otello* UNDER30 Preview (4.12., 18:00), nur über [teatroallascala.org](http://teatroallascala.org) (**Rabatt**, Preis und Altersgrenze nicht auf der Seite). Premiere 7.12. sowie 10./13.12. inzwischen **ausverkauft** (Stand 19.10.)",
+   "title": "🚆 Mailand: Verkaufsstart Otello UNDER30 Preview (4.12., 18:00), nur über…",
+   "status": "ok",
+   "statusNote": "✅",
+   "trip": true,
+   "free": false,
+   "discount": true,
+   "sources": [
+    {
+     "label": "teatroallascala.org",
+     "url": "https://www.teatroallascala.org/en/season/2026-2027/opera/otello.html"
+    },
+    {
+     "label": "Preview",
+     "url": "https://www.teatroallascala.org/en/season/2026-2027/opera/otello-under30-preview.html"
+    }
+   ]
+  },
+  {
+   "id": "gender-bender-tanz-abo-3-stucke-18-5-stu-2026-10-26",
+   "date": "2026-10-26",
+   "kind": "until",
+   "label": "bis 26.10.",
+   "text": "Gender Bender: Tanz-Abo (3 Stücke 18 € / 5 Stücke 30 €, **Rabatt** ggü. 13 € Einzelkarte) per E-Mail an [biglietteria@genderbender.it](mailto:biglietteria@genderbender.it) vorbestellen; Abholung 29.10.–6.11., 15–17 Uhr, Cassero. *À la recherche du temps perdu* nur online ab 29.10.",
+   "title": "Tanz-Abo (3 Stücke 18 € / 5 Stücke 30 €, Rabatt ggü. 13 € Einzelkarte) per E-Mail an…",
+   "status": "ok",
+   "statusNote": "✅",
+   "trip": false,
+   "free": false,
+   "discount": true,
+   "sources": [
+    {
+     "label": "genderbender.it",
+     "url": "https://genderbender.it/biglietti-abbonamenti-e-modalita-di-ingresso-a-gender-bender-festival-2026/"
+    }
+   ]
+  },
+  {
+   "id": "gender-bender-workshops-gratis-anmeldung",
+   "date": null,
+   "kind": "ongoing",
+   "label": "ohne Frist",
+   "text": "Gender-Bender-Workshops **gratis**, Anmeldung an [laboratori@genderbender.it](mailto:laboratori@genderbender.it): 1.11. 11:30 *Disobeying Voice* (Jana Jacuka, DAS, keine Vorerfahrung nötig) · 6.11. 14:30 *Appunti clandestini per un'autobiografia collettiva* (Chiara Bersani / Flavia Dalila D'Amico, MAMbo); Platzzahl nicht angegeben",
+   "title": "Gender-Bender-Workshops gratis, Anmeldung an laboratori@genderbender.it: 1.11. 11:30…",
+   "status": "ok",
+   "statusNote": "✅",
+   "trip": false,
+   "free": true,
+   "discount": false,
+   "sources": [
+    {
+     "label": "Disobeying Voice",
+     "url": "https://genderbender.it/evento/disobeying-voice/"
+    },
+    {
+     "label": "Appunti clandestini",
+     "url": "https://genderbender.it/evento/appunti-clandestini-per-unautobiografia-collettiva/"
+    }
+   ]
+  }
+ ]
+}
