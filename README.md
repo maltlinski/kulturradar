@@ -23,7 +23,7 @@ Geprüfte Tanz-, Opern- und Theatertermine in Bologna und der Emilia-Romagna, da
 
 ## Kalender abonnieren
 
-Nach der Veröffentlichung unter `https://<name>.github.io/kulturradar/`:
+Nach der Veröffentlichung unter <https://maltlinski.github.io/kulturradar/>:
 
 | Feed | Inhalt |
 |---|---|

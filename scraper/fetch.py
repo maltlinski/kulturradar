@@ -9,7 +9,7 @@ from urllib.parse import urlparse
 import requests
 from bs4 import BeautifulSoup
 
-USER_AGENT = "KulturradarBot/0.1 (privater Veranstaltungskalender; +https://github.com/OWNER/kulturradar)"
+USER_AGENT = "KulturradarBot/0.1 (privater Veranstaltungskalender; +https://github.com/maltlinski/kulturradar)"
 DELAY_SECONDS = 4.0
 TIMEOUT = 25
 
